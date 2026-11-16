@@ -1,0 +1,404 @@
+{
+  "origem": "720 partidas selecionadas por conter Paradox, de 6 a 8 de novembro de 2026",
+  "criterio": "rank individual de entrada Phantom I ou superior",
+  "limite": "Os outros herois aparecem somente em partidas que tambem tem Paradox",
+  "participacoes_elegiveis": 1049,
+  "herois": [
+    {
+      "hero_id": 10,
+      "nome": "Paradox",
+      "partidas_distintas": 82,
+      "phantom": 57,
+      "ascendant": 25,
+      "eternus": 0,
+      "registros_loja": 1255
+    },
+    {
+      "hero_id": 13,
+      "nome": "Haze",
+      "partidas_distintas": 52,
+      "phantom": 37,
+      "ascendant": 15,
+      "eternus": 0,
+      "registros_loja": 792
+    },
+    {
+      "hero_id": 65,
+      "nome": "Venator",
+      "partidas_distintas": 44,
+      "phantom": 30,
+      "ascendant": 14,
+      "eternus": 0,
+      "registros_loja": 727
+    },
+    {
+      "hero_id": 7,
+      "nome": "Wraith",
+      "partidas_distintas": 43,
+      "phantom": 29,
+      "ascendant": 13,
+      "eternus": 1,
+      "registros_loja": 697
+    },
+    {
+      "hero_id": 31,
+      "nome": "Lash",
+      "partidas_distintas": 39,
+      "phantom": 28,
+      "ascendant": 11,
+      "eternus": 0,
+      "registros_loja": 632
+    },
+    {
+      "hero_id": 64,
+      "nome": "Drifter",
+      "partidas_distintas": 38,
+      "phantom": 32,
+      "ascendant": 6,
+      "eternus": 0,
+      "registros_loja": 635
+    },
+    {
+      "hero_id": 19,
+      "nome": "Shiv",
+      "partidas_distintas": 38,
+      "phantom": 29,
+      "ascendant": 9,
+      "eternus": 0,
+      "registros_loja": 552
+    },
+    {
+      "hero_id": 15,
+      "nome": "Bebop",
+      "partidas_distintas": 35,
+      "phantom": 25,
+      "ascendant": 10,
+      "eternus": 0,
+      "registros_loja": 509
+    },
+    {
+      "hero_id": 6,
+      "nome": "Abrams",
+      "partidas_distintas": 34,
+      "phantom": 27,
+      "ascendant": 7,
+      "eternus": 0,
+      "registros_loja": 487
+    },
+    {
+      "hero_id": 63,
+      "nome": "Mina",
+      "partidas_distintas": 34,
+      "phantom": 24,
+      "ascendant": 10,
+      "eternus": 0,
+      "registros_loja": 590
+    },
+    {
+      "hero_id": 20,
+      "nome": "Ivy",
+      "partidas_distintas": 31,
+      "phantom": 24,
+      "ascendant": 7,
+      "eternus": 0,
+      "registros_loja": 486
+    },
+    {
+      "hero_id": 1,
+      "nome": "Infernus",
+      "partidas_distintas": 30,
+      "phantom": 25,
+      "ascendant": 5,
+      "eternus": 0,
+      "registros_loja": 515
+    },
+    {
+      "hero_id": 72,
+      "nome": "Billy",
+      "partidas_distintas": 28,
+      "phantom": 23,
+      "ascendant": 5,
+      "eternus": 0,
+      "registros_loja": 463
+    },
+    {
+      "hero_id": 3,
+      "nome": "Vindicta",
+      "partidas_distintas": 28,
+      "phantom": 21,
+      "ascendant": 6,
+      "eternus": 1,
+      "registros_loja": 509
+    },
+    {
+      "hero_id": 27,
+      "nome": "Yamato",
+      "partidas_distintas": 27,
+      "phantom": 20,
+      "ascendant": 7,
+      "eternus": 0,
+      "registros_loja": 411
+    },
+    {
+      "hero_id": 4,
+      "nome": "Lady Geist",
+      "partidas_distintas": 26,
+      "phantom": 16,
+      "ascendant": 10,
+      "eternus": 0,
+      "registros_loja": 442
+    },
+    {
+      "hero_id": 17,
+      "nome": "Grey Talon",
+      "partidas_distintas": 25,
+      "phantom": 18,
+      "ascendant": 7,
+      "eternus": 0,
+      "registros_loja": 423
+    },
+    {
+      "hero_id": 81,
+      "nome": "Celeste",
+      "partidas_distintas": 22,
+      "phantom": 18,
+      "ascendant": 4,
+      "eternus": 0,
+      "registros_loja": 350
+    },
+    {
+      "hero_id": 12,
+      "nome": "Kelvin",
+      "partidas_distintas": 22,
+      "phantom": 13,
+      "ascendant": 9,
+      "eternus": 0,
+      "registros_loja": 379
+    },
+    {
+      "hero_id": 16,
+      "nome": "Calico",
+      "partidas_distintas": 21,
+      "phantom": 15,
+      "ascendant": 6,
+      "eternus": 0,
+      "registros_loja": 351
+    },
+    {
+      "hero_id": 67,
+      "nome": "Paige",
+      "partidas_distintas": 21,
+      "phantom": 15,
+      "ascendant": 6,
+      "eternus": 0,
+      "registros_loja": 335
+    },
+    {
+      "hero_id": 80,
+      "nome": "Silver",
+      "partidas_distintas": 21,
+      "phantom": 15,
+      "ascendant": 6,
+      "eternus": 0,
+      "registros_loja": 349
+    },
+    {
+      "hero_id": 18,
+      "nome": "Mo & Krill",
+      "partidas_distintas": 20,
+      "phantom": 14,
+      "ascendant": 6,
+      "eternus": 0,
+      "registros_loja": 312
+    },
+    {
+      "hero_id": 50,
+      "nome": "Pocket",
+      "partidas_distintas": 20,
+      "phantom": 15,
+      "ascendant": 5,
+      "eternus": 0,
+      "registros_loja": 334
+    },
+    {
+      "hero_id": 79,
+      "nome": "Rem",
+      "partidas_distintas": 20,
+      "phantom": 14,
+      "ascendant": 6,
+      "eternus": 0,
+      "registros_loja": 313
+    },
+    {
+      "hero_id": 25,
+      "nome": "Warden",
+      "partidas_distintas": 20,
+      "phantom": 12,
+      "ascendant": 8,
+      "eternus": 0,
+      "registros_loja": 341
+    },
+    {
+      "hero_id": 76,
+      "nome": "Graves",
+      "partidas_distintas": 19,
+      "phantom": 17,
+      "ascendant": 2,
+      "eternus": 0,
+      "registros_loja": 308
+    },
+    {
+      "hero_id": 66,
+      "nome": "Victor",
+      "partidas_distintas": 19,
+      "phantom": 11,
+      "ascendant": 8,
+      "eternus": 0,
+      "registros_loja": 316
+    },
+    {
+      "hero_id": 78,
+      "nome": "Deadman Danny",
+      "partidas_distintas": 18,
+      "phantom": 14,
+      "ascendant": 4,
+      "eternus": 0,
+      "registros_loja": 308
+    },
+    {
+      "hero_id": 2,
+      "nome": "Seven",
+      "partidas_distintas": 18,
+      "phantom": 12,
+      "ascendant": 6,
+      "eternus": 0,
+      "registros_loja": 305
+    },
+    {
+      "hero_id": 14,
+      "nome": "Holliday",
+      "partidas_distintas": 17,
+      "phantom": 12,
+      "ascendant": 5,
+      "eternus": 0,
+      "registros_loja": 284
+    },
+    {
+      "hero_id": 77,
+      "nome": "Apollo",
+      "partidas_distintas": 16,
+      "phantom": 14,
+      "ascendant": 2,
+      "eternus": 0,
+      "registros_loja": 256
+    },
+    {
+      "hero_id": 87,
+      "nome": "Nurse Harrow",
+      "partidas_distintas": 15,
+      "phantom": 11,
+      "ascendant": 4,
+      "eternus": 0,
+      "registros_loja": 237
+    },
+    {
+      "hero_id": 35,
+      "nome": "Viscous",
+      "partidas_distintas": 14,
+      "phantom": 8,
+      "ascendant": 6,
+      "eternus": 0,
+      "registros_loja": 240
+    },
+    {
+      "hero_id": 11,
+      "nome": "Dynamo",
+      "partidas_distintas": 13,
+      "phantom": 8,
+      "ascendant": 5,
+      "eternus": 0,
+      "registros_loja": 236
+    },
+    {
+      "hero_id": 88,
+      "nome": "Baba",
+      "partidas_distintas": 11,
+      "phantom": 6,
+      "ascendant": 5,
+      "eternus": 0,
+      "registros_loja": 182
+    },
+    {
+      "hero_id": 85,
+      "nome": "Solomon",
+      "partidas_distintas": 11,
+      "phantom": 9,
+      "ascendant": 2,
+      "eternus": 0,
+      "registros_loja": 177
+    },
+    {
+      "hero_id": 86,
+      "nome": "Violet",
+      "partidas_distintas": 11,
+      "phantom": 9,
+      "ascendant": 2,
+      "eternus": 0,
+      "registros_loja": 180
+    },
+    {
+      "hero_id": 52,
+      "nome": "Mirage",
+      "partidas_distintas": 10,
+      "phantom": 8,
+      "ascendant": 2,
+      "eternus": 0,
+      "registros_loja": 148
+    },
+    {
+      "hero_id": 58,
+      "nome": "Vyper",
+      "partidas_distintas": 10,
+      "phantom": 7,
+      "ascendant": 3,
+      "eternus": 0,
+      "registros_loja": 164
+    },
+    {
+      "hero_id": 84,
+      "nome": "Rat King",
+      "partidas_distintas": 9,
+      "phantom": 7,
+      "ascendant": 2,
+      "eternus": 0,
+      "registros_loja": 164
+    },
+    {
+      "hero_id": 8,
+      "nome": "McGinnis",
+      "partidas_distintas": 8,
+      "phantom": 7,
+      "ascendant": 1,
+      "eternus": 0,
+      "registros_loja": 128
+    },
+    {
+      "hero_id": 69,
+      "nome": "The Doorman",
+      "partidas_distintas": 6,
+      "phantom": 5,
+      "ascendant": 1,
+      "eternus": 0,
+      "registros_loja": 111
+    },
+    {
+      "hero_id": 60,
+      "nome": "Sinclair",
+      "partidas_distintas": 3,
+      "phantom": 2,
+      "ascendant": 1,
+      "eternus": 0,
+      "registros_loja": 51
+    }
+  ]
+}

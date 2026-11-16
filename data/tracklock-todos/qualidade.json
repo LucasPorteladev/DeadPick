@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "herois": 44,
+  "paginas_validadas": 132,
+  "linhas_tabelas_itens": 6827,
+  "referencias_itens": 9888,
+  "referencias_sem_mapeamento": [],
+  "participacoes_pro_somadas_nao_partidas_unicas": 6291,
+  "participacoes_phantom_modeladas": 116364,
+  "silhouette_minimo": 0.06777423239044171,
+  "silhouette_maximo": 0.3172545884108201,
+  "cobertura_filtro_minima": 0.8395884137274728,
+  "cobertura_filtro_maxima": 0.9668611670020121
+}

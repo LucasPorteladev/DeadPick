@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101217">
+  <title>Deadpick · Montador de composição</title>
+  <link rel="stylesheet" href="estilo.css">
+  <script src="dados.js" defer></script>
+  <script src="simulador.js" defer></script>
+</head>
+<body>
+  <header class="topo">
+    <div class="marca"><span aria-hidden="true">◈</span> DEADPICK</div>
+    <span id="dados-base" class="amostra"></span>
+  </header>
+  <main>
+    <h1>Montador de composição</h1>
+    <section aria-labelledby="aliados-titulo">
+      <h2 id="aliados-titulo" class="time-titulo aliado">Seu time</h2>
+      <div id="aliados" class="lanes"></div>
+    </section>
+
+    <section class="centro" aria-labelledby="nome-jogador">
+      <div class="jogador">
+        <button id="trocar-heroi" class="retrato-jogador" type="button" aria-label="Escolher seu herói">+</button>
+        <div><p class="sobretitulo">SEU HERÓI</p><h2 id="nome-jogador">Escolha seu herói</h2></div>
+      </div>
+      <fieldset id="escolha-lane" class="escolha-lane" hidden><legend>Em qual lane você está?</legend><div id="opcoes-lane"></div></fieldset>
+      <fieldset class="estado-partida">
+        <legend>Estado da partida</legend>
+        <div class="campos-estado">
+          <label>Minuto atual<input id="minuto" type="number" min="0" step="0.5" value="0" inputmode="decimal"></label>
+          <label>Almas disponíveis<input id="almas" type="number" min="0" step="1" placeholder="Não informado" inputmode="numeric"></label>
+          <button id="desfazer" type="button" disabled>Desfazer alteração</button>
+        </div>
+        <details class="inventario-painel">
+          <summary>Inventário atual</summary>
+          <p class="subtitulo">Informe os itens que já possui. Upgrades substituem seus componentes. Corrigir o inventário não simula venda nem altera o saldo.</p>
+          <div id="inventario-atual" class="inventario-atual"></div>
+          <p id="inventario-vazio" class="subtitulo">Nenhum item informado.</p>
+          <button id="adicionar-item" type="button">Adicionar item existente</button>
+        </details>
+      </fieldset>
+      <div class="resultado">
+        <p id="estado" class="subtitulo" aria-live="polite"></p>
+        <section id="proxima" class="proxima" hidden aria-labelledby="build-titulo">
+          <h2 id="build-titulo">Próximo item</h2>
+          <div id="detalhe-item" class="detalhe"></div>
+          <p id="custo-proxima" class="subtitulo"></p>
+          <button id="comprar" type="button">Marcar como comprado</button>
+        </section>
+        <details id="contexto-counter" class="inventario-painel" hidden>
+          <summary>Respostas à composição</summary>
+          <div id="respostas" class="subtitulo"></div>
+          <p class="subtitulo">Ameaças inferidas pelos heróis. A prioridade ainda usa regras provisórias; não mede o impacto real dos inimigos.</p>
+        </details>
+        <section id="plano" class="plano" hidden aria-labelledby="plano-titulo">
+          <h2 id="plano-titulo">Sequência de compras</h2>
+          <p id="perfil-base" class="subtitulo"></p>
+          <ol id="build" class="build" aria-label="Ordem de compra"></ol>
+        </section>
+      </div>
+    </section>
+
+    <section aria-labelledby="inimigos-titulo">
+      <h2 id="inimigos-titulo" class="time-titulo inimigo">Time inimigo</h2>
+      <div id="inimigos" class="lanes"></div>
+    </section>
+    <footer>44 heróis · Tracklock + perfis k-means de compras Phantom+. Dados históricos; perfis exploratórios, sem garantia de vitória. A sequência inclui componentes e não representa o inventário final.</footer>
+  </main>
+
+  <p id="aviso-arraste" class="aviso-arraste" hidden>Arraste até outra vaga. Solte para mover ou trocar.</p>
+
+  <dialog id="seletor" aria-labelledby="pergunta">
+    <div class="seletor-topo"><h2 id="pergunta"></h2><button id="fechar" type="button" aria-label="Fechar">×</button></div>
+    <input id="busca" type="search" autocomplete="off" aria-label="Buscar no catálogo">
+    <div id="opcoes" class="catalogo"></div>
+    <button id="mover" type="button" hidden>Mover ou trocar de posição</button>
+    <button id="remover" type="button" hidden>Remover herói da lane</button>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,1555 @@
+{
+  "hero_id": 76,
+  "nome": "Graves",
+  "slug": "graves",
+  "erros": [],
+  "items": {
+    "url": "https://prod.tracklock.gg/heroes/graves/items",
+    "snapshot": "data\\tracklock-todos\\bruto\\graves-items.html",
+    "sha256": "da6a96a860d9cbde121889fc8e0df74c52b7f4493c98ab5ef2a15b1c128d8939",
+    "captura_utc": "2026-11-16T15:09:56.631093+00:00",
+    "rank": "nao verificado; pagina padrao",
+    "janela": "nao verificada",
+    "itens": [
+      {
+        "nome_item": "Restorative Shot",
+        "custo_exibido": "800",
+        "winrate_percentual": 55.45,
+        "uso_percentual": 91.84,
+        "vitorias_e_derrotas_exibidas": "69.8K / 56.1K",
+        "item_id": 3862866912
+      },
+      {
+        "nome_item": "Extra Stamina",
+        "custo_exibido": "800",
+        "winrate_percentual": 55.58,
+        "uso_percentual": 88.84,
+        "vitorias_e_derrotas_exibidas": "67.7K / 54.1K",
+        "item_id": 4139877411
+      },
+      {
+        "nome_item": "Extra Spirit",
+        "custo_exibido": "800",
+        "winrate_percentual": 55.29,
+        "uso_percentual": 77.83,
+        "vitorias_e_derrotas_exibidas": "59K / 47.7K",
+        "item_id": 968099481
+      },
+      {
+        "nome_item": "Toxic Bullets",
+        "custo_exibido": "3200",
+        "winrate_percentual": 56.44,
+        "uso_percentual": 77.05,
+        "vitorias_e_derrotas_exibidas": "59.6K / 46K",
+        "item_id": 3696726732
+      },
+      {
+        "nome_item": "Improved Spirit",
+        "custo_exibido": "1600",
+        "winrate_percentual": 55.69,
+        "uso_percentual": 73.41,
+        "vitorias_e_derrotas_exibidas": "56K / 44.6K",
+        "item_id": 7409189
+      },
+      {
+        "nome_item": "Stamina Mastery",
+        "custo_exibido": "3200",
+        "winrate_percentual": 56.49,
+        "uso_percentual": 72.28,
+        "vitorias_e_derrotas_exibidas": "56K / 43.1K",
+        "item_id": 334300056
+      },
+      {
+        "nome_item": "Tesla Bullets",
+        "custo_exibido": "3200",
+        "winrate_percentual": 56.44,
+        "uso_percentual": 63.11,
+        "vitorias_e_derrotas_exibidas": "48.8K / 37.7K",
+        "item_id": 811521119
+      },
+      {
+        "nome_item": "Mystic Vulnerability",
+        "custo_exibido": "1600",
+        "winrate_percentual": 57.21,
+        "uso_percentual": 62.17,
+        "vitorias_e_derrotas_exibidas": "48.7K / 36.5K",
+        "item_id": 2081037738
+      },
+      {
+        "nome_item": "Spirit Lifesteal",
+        "custo_exibido": "1600",
+        "winrate_percentual": 57.79,
+        "uso_percentual": 61.21,
+        "vitorias_e_derrotas_exibidas": "48.5K / 35.4K",
+        "item_id": 876563814
+      },
+      {
+        "nome_item": "Grit",
+        "custo_exibido": "800",
+        "winrate_percentual": 56.7,
+        "uso_percentual": 60.62,
+        "vitorias_e_derrotas_exibidas": "47.1K / 36K",
+        "item_id": 1672893796
+      },
+      {
+        "nome_item": "Mystic Shot",
+        "custo_exibido": "1600",
+        "winrate_percentual": 56.32,
+        "uso_percentual": 58.32,
+        "vitorias_e_derrotas_exibidas": "45K / 34.9K",
+        "item_id": 395867183
+      },
+      {
+        "nome_item": "Escalating Exposure",
+        "custo_exibido": "6400",
+        "winrate_percentual": 60.07,
+        "uso_percentual": 50.39,
+        "vitorias_e_derrotas_exibidas": "41.5K / 27.6K",
+        "item_id": 3005970438
+      },
+      {
+        "nome_item": "Boundless Spirit",
+        "custo_exibido": "6400",
+        "winrate_percentual": 58.27,
+        "uso_percentual": 45.91,
+        "vitorias_e_derrotas_exibidas": "36.7K / 26.3K",
+        "item_id": 2519598785
+      },
+      {
+        "nome_item": "Torment Pulse",
+        "custo_exibido": "3200",
+        "winrate_percentual": 57.97,
+        "uso_percentual": 45.62,
+        "vitorias_e_derrotas_exibidas": "36.2K / 26.3K",
+        "item_id": 395944548
+      },
+      {
+        "nome_item": "Enchanter's Emblem",
+        "custo_exibido": "1600",
+        "winrate_percentual": 56.61,
+        "uso_percentual": 41.25,
+        "vitorias_e_derrotas_exibidas": "32K / 24.5K",
+        "item_id": 3970837787
+      },
+      {
+        "nome_item": "Capacitor",
+        "custo_exibido": "6400",
+        "winrate_percentual": 57.43,
+        "uso_percentual": 40.31,
+        "vitorias_e_derrotas_exibidas": "31.7K / 23.5K",
+        "item_id": 710436191
+      },
+      {
+        "nome_item": "Weapon Shielding",
+        "custo_exibido": "1600",
+        "winrate_percentual": 57.68,
+        "uso_percentual": 34.27,
+        "vitorias_e_derrotas_exibidas": "27.1K / 19.9K",
+        "item_id": 805079544
+      },
+      {
+        "nome_item": "Spirit Resilience",
+        "custo_exibido": "3200",
+        "winrate_percentual": 55.77,
+        "uso_percentual": 30.63,
+        "vitorias_e_derrotas_exibidas": "23.4K / 18.6K",
+        "item_id": 2163598980
+      },
+      {
+        "nome_item": "Siphon Bullets",
+        "custo_exibido": "6400",
+        "winrate_percentual": 62.41,
+        "uso_percentual": 26.37,
+        "vitorias_e_derrotas_exibidas": "22.5K / 13.6K",
+        "item_id": 1282141666
+      },
+      {
+        "nome_item": "Spiritual Overflow",
+        "custo_exibido": "6400",
+        "winrate_percentual": 60.55,
+        "uso_percentual": 26.2,
+        "vitorias_e_derrotas_exibidas": "21.7K / 14.2K",
+        "item_id": 2226497419
+      },
+      {
+        "nome_item": "Ricochet",
+        "custo_exibido": "6400",
+        "winrate_percentual": 59.18,
+        "uso_percentual": 21.57,
+        "vitorias_e_derrotas_exibidas": "17.5K / 12.1K",
+        "item_id": 2480592370
+      },
+      {
+        "nome_item": "Healbane",
+        "custo_exibido": "1600",
+        "winrate_percentual": 54.39,
+        "uso_percentual": 20.35,
+        "vitorias_e_derrotas_exibidas": "15.2K / 12.7K",
+        "item_id": 2603935618
+      },
+      {
+        "nome_item": "Superior Cooldown",
+        "custo_exibido": "3200",
+        "winrate_percentual": 54.39,
+        "uso_percentual": 19.98,
+        "vitorias_e_derrotas_exibidas": "14.9K / 12.5K",
+        "item_id": 3261353684
+      },
+      {
+        "nome_item": "Superior Duration",
+        "custo_exibido": "3200",
+        "winrate_percentual": 54.76,
+        "uso_percentual": 19.86,
+        "vitorias_e_derrotas_exibidas": "14.9K / 12.3K",
+        "item_id": 2717651715
+      },
+      {
+        "nome_item": "Heroic Aura",
+        "custo_exibido": "3200",
+        "winrate_percentual": 55.87,
+        "uso_percentual": 19.66,
+        "vitorias_e_derrotas_exibidas": "15K / 11.9K",
+        "item_id": 2108215830
+      },
+      {
+        "nome_item": "Spirit Shielding",
+        "custo_exibido": "1600",
+        "winrate_percentual": 54.76,
+        "uso_percentual": 19.55,
+        "vitorias_e_derrotas_exibidas": "14.7K / 12.1K",
+        "item_id": 112198670
+      },
+      {
+        "nome_item": "Arcane Surge",
+        "custo_exibido": "1600",
+        "winrate_percentual": 53.25,
+        "uso_percentual": 19.51,
+        "vitorias_e_derrotas_exibidas": "14.2K / 12.5K",
+        "item_id": 1150006784
+      },
+      {
+        "nome_item": "Reactive Barrier",
+        "custo_exibido": "1600",
+        "winrate_percentual": 54.65,
+        "uso_percentual": 19.14,
+        "vitorias_e_derrotas_exibidas": "14.3K / 11.9K",
+        "item_id": 1644605047
+      },
+      {
+        "nome_item": "Compress Cooldown",
+        "custo_exibido": "1600",
+        "winrate_percentual": 53.89,
+        "uso_percentual": 17.74,
+        "vitorias_e_derrotas_exibidas": "13.1K / 11.2K",
+        "item_id": 380806748
+      },
+      {
+        "nome_item": "Duration Extender",
+        "custo_exibido": "1600",
+        "winrate_percentual": 54.26,
+        "uso_percentual": 16.65,
+        "vitorias_e_derrotas_exibidas": "12.4K / 10.4K",
+        "item_id": 2951612397
+      },
+      {
+        "nome_item": "Surge of Power",
+        "custo_exibido": "3200",
+        "winrate_percentual": 54.12,
+        "uso_percentual": 16.63,
+        "vitorias_e_derrotas_exibidas": "12.3K / 10.5K",
+        "item_id": 1292979587
+      },
+      {
+        "nome_item": "Extended Magazine",
+        "custo_exibido": "800",
+        "winrate_percentual": 53.28,
+        "uso_percentual": 16.36,
+        "vitorias_e_derrotas_exibidas": "11.9K / 10.5K",
+        "item_id": 1548066885
+      },
+      {
+        "nome_item": "Leech",
+        "custo_exibido": "6400",
+        "winrate_percentual": 56.3,
+        "uso_percentual": 14.85,
+        "vitorias_e_derrotas_exibidas": "11.5K / 8.9K",
+        "item_id": 865846625
+      },
+      {
+        "nome_item": "Titanic Magazine",
+        "custo_exibido": "1600",
+        "winrate_percentual": 52.79,
+        "uso_percentual": 13.7,
+        "vitorias_e_derrotas_exibidas": "9.9K / 8.9K",
+        "item_id": 2356412290
+      },
+      {
+        "nome_item": "Echo Shard",
+        "custo_exibido": "6400",
+        "winrate_percentual": 56.05,
+        "uso_percentual": 11.64,
+        "vitorias_e_derrotas_exibidas": "8.9K / 7K",
+        "item_id": 630839635
+      },
+      {
+        "nome_item": "Transcendent Cooldown",
+        "custo_exibido": "6400",
+        "winrate_percentual": 55.67,
+        "uso_percentual": 11.62,
+        "vitorias_e_derrotas_exibidas": "8.9K / 7.1K",
+        "item_id": 915014646
+      },
+      {
+        "nome_item": "Spirit Burn",
+        "custo_exibido": "6400",
+        "winrate_percentual": 58.68,
+        "uso_percentual": 11.14,
+        "vitorias_e_derrotas_exibidas": "9K / 6.3K",
+        "item_id": 343572757
+      },
+      {
+        "nome_item": "Tankbuster",
+        "custo_exibido": "3200",
+        "winrate_percentual": 53.34,
+        "uso_percentual": 10.76,
+        "vitorias_e_derrotas_exibidas": "7.9K / 6.9K",
+        "item_id": 2121044373
+      },
+      {
+        "nome_item": "Bullet Resilience",
+        "custo_exibido": "3200",
+        "winrate_percentual": 56.06,
+        "uso_percentual": 8.84,
+        "vitorias_e_derrotas_exibidas": "6.8K / 5.3K",
+        "item_id": 3140772621
+      },
+      {
+        "nome_item": "Refresher",
+        "custo_exibido": "6400",
+        "winrate_percentual": 56.93,
+        "uso_percentual": 8.61,
+        "vitorias_e_derrotas_exibidas": "6.7K / 5.1K",
+        "item_id": 677738769
+      },
+      {
+        "nome_item": "Indomitable",
+        "custo_exibido": "6400",
+        "winrate_percentual": 56.75,
+        "uso_percentual": 8.58,
+        "vitorias_e_derrotas_exibidas": "6.7K / 5.1K",
+        "item_id": 951866250
+      },
+      {
+        "nome_item": "Bullet Lifesteal",
+        "custo_exibido": "1600",
+        "winrate_percentual": 54.32,
+        "uso_percentual": 8.56,
+        "vitorias_e_derrotas_exibidas": "6.4K / 5.4K",
+        "item_id": 499683006
+      },
+      {
+        "nome_item": "Split Shot",
+        "custo_exibido": "1600",
+        "winrate_percentual": 52.08,
+        "uso_percentual": 8.5,
+        "vitorias_e_derrotas_exibidas": "6.1K / 5.6K",
+        "item_id": 3647584222
+      },
+      {
+        "nome_item": "Inhibitor",
+        "custo_exibido": "6400",
+        "winrate_percentual": 58.52,
+        "uso_percentual": 7.92,
+        "vitorias_e_derrotas_exibidas": "6.4K / 4.5K",
+        "item_id": 2037039379
+      },
+      {
+        "nome_item": "Extra Charge",
+        "custo_exibido": "800",
+        "winrate_percentual": 51.09,
+        "uso_percentual": 7.56,
+        "vitorias_e_derrotas_exibidas": "5.3K / 5.1K",
+        "item_id": 3776945997
+      },
+      {
+        "nome_item": "Monster Rounds",
+        "custo_exibido": "800",
+        "winrate_percentual": 50.78,
+        "uso_percentual": 7.19,
+        "vitorias_e_derrotas_exibidas": "5K / 4.8K",
+        "item_id": 1009965641
+      },
+      {
+        "nome_item": "Suppressor",
+        "custo_exibido": "1600",
+        "winrate_percentual": 54.34,
+        "uso_percentual": 6.85,
+        "vitorias_e_derrotas_exibidas": "5.1K / 4.3K",
+        "item_id": 1925087134
+      },
+      {
+        "nome_item": "Mystic Burst",
+        "custo_exibido": "800",
+        "winrate_percentual": 53.83,
+        "uso_percentual": 6.82,
+        "vitorias_e_derrotas_exibidas": "5K / 4.3K",
+        "item_id": 1998374645
+      },
+      {
+        "nome_item": "Sprint Boots",
+        "custo_exibido": "800",
+        "winrate_percentual": 52.21,
+        "uso_percentual": 6.79,
+        "vitorias_e_derrotas_exibidas": "4.9K / 4.4K",
+        "item_id": 3399065363
+      },
+      {
+        "nome_item": "Silencer",
+        "custo_exibido": "6400",
+        "winrate_percentual": 60.52,
+        "uso_percentual": 6.38,
+        "vitorias_e_derrotas_exibidas": "5.3K / 3.5K",
+        "item_id": 1113837674
+      },
+      {
+        "nome_item": "Dispel Magic",
+        "custo_exibido": "3200",
+        "winrate_percentual": 53.3,
+        "uso_percentual": 6.28,
+        "vitorias_e_derrotas_exibidas": "4.6K / 4K",
+        "item_id": 3731635960
+      },
+      {
+        "nome_item": "Escalating Resilience",
+        "custo_exibido": "3200",
+        "winrate_percentual": 54.74,
+        "uso_percentual": 5.86,
+        "vitorias_e_derrotas_exibidas": "4.4K / 3.6K",
+        "item_id": 2463960640
+      },
+      {
+        "nome_item": "Rapid Recharge",
+        "custo_exibido": "3200",
+        "winrate_percentual": 52.14,
+        "uso_percentual": 5.84,
+        "vitorias_e_derrotas_exibidas": "4.2K / 3.8K",
+        "item_id": 787198704
+      },
+      {
+        "nome_item": "Quicksilver Reload",
+        "custo_exibido": "1600",
+        "winrate_percentual": 51.51,
+        "uso_percentual": 5.78,
+        "vitorias_e_derrotas_exibidas": "4.1K / 3.8K",
+        "item_id": 84321454
+      },
+      {
+        "nome_item": "Extra Regen",
+        "custo_exibido": "800",
+        "winrate_percentual": 52.47,
+        "uso_percentual": 5.04,
+        "vitorias_e_derrotas_exibidas": "3.6K / 3.3K",
+        "item_id": 2829638276
+      },
+      {
+        "nome_item": "Spellbreaker",
+        "custo_exibido": "6400",
+        "winrate_percentual": 55.81,
+        "uso_percentual": 4.88,
+        "vitorias_e_derrotas_exibidas": "3.7K / 3K",
+        "item_id": 1955841979
+      },
+      {
+        "nome_item": "Mystic Reverb",
+        "custo_exibido": "6400",
+        "winrate_percentual": 57.99,
+        "uso_percentual": 4.85,
+        "vitorias_e_derrotas_exibidas": "3.9K / 2.8K",
+        "item_id": 3577481646
+      },
+      {
+        "nome_item": "Recharging Rush",
+        "custo_exibido": "1600",
+        "winrate_percentual": 51.8,
+        "uso_percentual": 4.81,
+        "vitorias_e_derrotas_exibidas": "3.4K / 3.2K",
+        "item_id": 1763073141
+      },
+      {
+        "nome_item": "Trophy Collector",
+        "custo_exibido": "1600",
+        "winrate_percentual": 53.51,
+        "uso_percentual": 4.77,
+        "vitorias_e_derrotas_exibidas": "3.5K / 3K",
+        "item_id": 3074274290
+      },
+      {
+        "nome_item": "Golden Goose Egg",
+        "custo_exibido": "800",
+        "winrate_percentual": 53.71,
+        "uso_percentual": 4.73,
+        "vitorias_e_derrotas_exibidas": "3.5K / 3K",
+        "item_id": 2462046703
+      },
+      {
+        "nome_item": "Knockdown",
+        "custo_exibido": "3200",
+        "winrate_percentual": 45.86,
+        "uso_percentual": 4.66,
+        "vitorias_e_derrotas_exibidas": "2.9K / 3.5K",
+        "item_id": 1254091416
+      },
+      {
+        "nome_item": "Enduring Speed",
+        "custo_exibido": "1600",
+        "winrate_percentual": 52.59,
+        "uso_percentual": 4.65,
+        "vitorias_e_derrotas_exibidas": "3.3K / 3K",
+        "item_id": 2447176615
+      },
+      {
+        "nome_item": "Debuff Reducer",
+        "custo_exibido": "1600",
+        "winrate_percentual": 54.05,
+        "uso_percentual": 4.63,
+        "vitorias_e_derrotas_exibidas": "3.4K / 2.9K",
+        "item_id": 1047818222
+      },
+      {
+        "nome_item": "Extra Health",
+        "custo_exibido": "800",
+        "winrate_percentual": 53.16,
+        "uso_percentual": 4.41,
+        "vitorias_e_derrotas_exibidas": "3.2K / 2.8K",
+        "item_id": 3633614685
+      },
+      {
+        "nome_item": "Counterspell",
+        "custo_exibido": "3200",
+        "winrate_percentual": 53.54,
+        "uso_percentual": 4.33,
+        "vitorias_e_derrotas_exibidas": "3.2K / 2.8K",
+        "item_id": 1414025773
+      },
+      {
+        "nome_item": "Plated Armor",
+        "custo_exibido": "6400",
+        "winrate_percentual": 53.21,
+        "uso_percentual": 4.31,
+        "vitorias_e_derrotas_exibidas": "3.1K / 2.8K",
+        "item_id": 3491236900
+      },
+      {
+        "nome_item": "Diviner's Kevlar",
+        "custo_exibido": "6400",
+        "winrate_percentual": 60.36,
+        "uso_percentual": 4.28,
+        "vitorias_e_derrotas_exibidas": "3.5K / 2.3K",
+        "item_id": 2820116164
+      },
+      {
+        "nome_item": "Metal Skin",
+        "custo_exibido": "3200",
+        "winrate_percentual": 43.02,
+        "uso_percentual": 4.17,
+        "vitorias_e_derrotas_exibidas": "2.5K / 3.3K",
+        "item_id": 1378931225
+      },
+      {
+        "nome_item": "Active Reload",
+        "custo_exibido": "1600",
+        "winrate_percentual": 52.57,
+        "uso_percentual": 4.01,
+        "vitorias_e_derrotas_exibidas": "2.9K / 2.6K",
+        "item_id": 381961617
+      },
+      {
+        "nome_item": "Rebuttal",
+        "custo_exibido": "800",
+        "winrate_percentual": 53.41,
+        "uso_percentual": 3.54,
+        "vitorias_e_derrotas_exibidas": "2.6K / 2.3K",
+        "item_id": 4204808176
+      },
+      {
+        "nome_item": "Mercurial Magnum",
+        "custo_exibido": "6400",
+        "winrate_percentual": 55.76,
+        "uso_percentual": 3.14,
+        "vitorias_e_derrotas_exibidas": "2.4K / 1.9K",
+        "item_id": 3919289022
+      },
+      {
+        "nome_item": "Slowing Hex",
+        "custo_exibido": "1600",
+        "winrate_percentual": 50.18,
+        "uso_percentual": 2.97,
+        "vitorias_e_derrotas_exibidas": "2K / 2K",
+        "item_id": 1813726886
+      },
+      {
+        "nome_item": "Mystic Slow",
+        "custo_exibido": "1600",
+        "winrate_percentual": 52.15,
+        "uso_percentual": 2.89,
+        "vitorias_e_derrotas_exibidas": "2.1K / 1.9K",
+        "item_id": 1102081447
+      },
+      {
+        "nome_item": "Cursed Relic",
+        "custo_exibido": "6400",
+        "winrate_percentual": 48.97,
+        "uso_percentual": 2.45,
+        "vitorias_e_derrotas_exibidas": "1.6K / 1.7K",
+        "item_id": 2617435668
+      },
+      {
+        "nome_item": "Lightning Scroll",
+        "custo_exibido": "6400",
+        "winrate_percentual": 55.54,
+        "uso_percentual": 2.42,
+        "vitorias_e_derrotas_exibidas": "1.8K / 1.5K",
+        "item_id": 493591231
+      },
+      {
+        "nome_item": "Fortitude",
+        "custo_exibido": "3200",
+        "winrate_percentual": 53.71,
+        "uso_percentual": 2.15,
+        "vitorias_e_derrotas_exibidas": "1.6K / 1.4K",
+        "item_id": 3585132399
+      },
+      {
+        "nome_item": "Disarming Hex",
+        "custo_exibido": "3200",
+        "winrate_percentual": 43.93,
+        "uso_percentual": 2.06,
+        "vitorias_e_derrotas_exibidas": "1.2K / 1.6K",
+        "item_id": 2061878743
+      },
+      {
+        "nome_item": "Rapid Rounds",
+        "custo_exibido": "800",
+        "winrate_percentual": 50.99,
+        "uso_percentual": 1.95,
+        "vitorias_e_derrotas_exibidas": "1.4K / 1.3K",
+        "item_id": 668299740
+      },
+      {
+        "nome_item": "Juggernaut",
+        "custo_exibido": "6400",
+        "winrate_percentual": 56.89,
+        "uso_percentual": 1.9,
+        "vitorias_e_derrotas_exibidas": "1.5K / 1.1K",
+        "item_id": 1250307611
+      },
+      {
+        "nome_item": "Scourge",
+        "custo_exibido": "6400",
+        "winrate_percentual": 60.44,
+        "uso_percentual": 1.78,
+        "vitorias_e_derrotas_exibidas": "1.5K / 963",
+        "item_id": 2417568017
+      },
+      {
+        "nome_item": "Rusted Barrel",
+        "custo_exibido": "800",
+        "winrate_percentual": 47.22,
+        "uso_percentual": 1.76,
+        "vitorias_e_derrotas_exibidas": "1.1K / 1.3K",
+        "item_id": 2922054143
+      },
+      {
+        "nome_item": "Warp Stone",
+        "custo_exibido": "3200",
+        "winrate_percentual": 52.31,
+        "uso_percentual": 1.71,
+        "vitorias_e_derrotas_exibidas": "1.2K / 1.1K",
+        "item_id": 3270001687
+      },
+      {
+        "nome_item": "Burst Fire",
+        "custo_exibido": "3200",
+        "winrate_percentual": 52.3,
+        "uso_percentual": 1.7,
+        "vitorias_e_derrotas_exibidas": "1.2K / 1.1K",
+        "item_id": 2739107182
+      },
+      {
+        "nome_item": "Close Quarters",
+        "custo_exibido": "800",
+        "winrate_percentual": 52.18,
+        "uso_percentual": 1.64,
+        "vitorias_e_derrotas_exibidas": "1.2K / 1.1K",
+        "item_id": 1342610602
+      },
+      {
+        "nome_item": "Witchmail",
+        "custo_exibido": "6400",
+        "winrate_percentual": 57.87,
+        "uso_percentual": 1.55,
+        "vitorias_e_derrotas_exibidas": "1.2K / 896",
+        "item_id": 3028234315
+      },
+      {
+        "nome_item": "Infuser",
+        "custo_exibido": "6400",
+        "winrate_percentual": 56.34,
+        "uso_percentual": 1.48,
+        "vitorias_e_derrotas_exibidas": "1.1K / 885",
+        "item_id": 1797283378
+      },
+      {
+        "nome_item": "Mystic Regeneration",
+        "custo_exibido": "800",
+        "winrate_percentual": 50.95,
+        "uso_percentual": 1.38,
+        "vitorias_e_derrotas_exibidas": "962 / 926",
+        "item_id": 1439347412
+      },
+      {
+        "nome_item": "Healing Rite",
+        "custo_exibido": "800",
+        "winrate_percentual": 52.93,
+        "uso_percentual": 1.27,
+        "vitorias_e_derrotas_exibidas": "921 / 819",
+        "item_id": 1710079648
+      },
+      {
+        "nome_item": "Battle Vest",
+        "custo_exibido": "1600",
+        "winrate_percentual": 51.01,
+        "uso_percentual": 1.19,
+        "vitorias_e_derrotas_exibidas": "834 / 801",
+        "item_id": 1235347618
+      },
+      {
+        "nome_item": "Cultist Sacrifice",
+        "custo_exibido": "3200",
+        "winrate_percentual": 47.81,
+        "uso_percentual": 1.18,
+        "vitorias_e_derrotas_exibidas": "774 / 845",
+        "item_id": 709540378
+      },
+      {
+        "nome_item": "Radiant Regeneration",
+        "custo_exibido": "3200",
+        "winrate_percentual": 50.44,
+        "uso_percentual": 1.15,
+        "vitorias_e_derrotas_exibidas": "798 / 784",
+        "item_id": 2947183272
+      },
+      {
+        "nome_item": "Magic Carpet",
+        "custo_exibido": "6400",
+        "winrate_percentual": 61.61,
+        "uso_percentual": 1.15,
+        "vitorias_e_derrotas_exibidas": "971 / 605",
+        "item_id": 2800629741
+      },
+      {
+        "nome_item": "Unstoppable",
+        "custo_exibido": "6400",
+        "winrate_percentual": 51.55,
+        "uso_percentual": 1.11,
+        "vitorias_e_derrotas_exibidas": "782 / 735",
+        "item_id": 3357231760
+      },
+      {
+        "nome_item": "Mystic Expansion",
+        "custo_exibido": "800",
+        "winrate_percentual": 50.35,
+        "uso_percentual": 1.04,
+        "vitorias_e_derrotas_exibidas": "718 / 708",
+        "item_id": 754480263
+      },
+      {
+        "nome_item": "Decay",
+        "custo_exibido": "3200",
+        "winrate_percentual": 47.24,
+        "uso_percentual": 1.04,
+        "vitorias_e_derrotas_exibidas": "675 / 754",
+        "item_id": 3144988365
+      },
+      {
+        "nome_item": "Swift Striker",
+        "custo_exibido": "1600",
+        "winrate_percentual": 50.91,
+        "uso_percentual": 0.96,
+        "vitorias_e_derrotas_exibidas": "672 / 648",
+        "item_id": 4104549924
+      },
+      {
+        "nome_item": "Point Blank",
+        "custo_exibido": "3200",
+        "winrate_percentual": 49.88,
+        "uso_percentual": 0.95,
+        "vitorias_e_derrotas_exibidas": "649 / 652",
+        "item_id": 2095565695
+      },
+      {
+        "nome_item": "Bullet Resist Shredder",
+        "custo_exibido": "1600",
+        "winrate_percentual": 53.75,
+        "uso_percentual": 0.92,
+        "vitorias_e_derrotas_exibidas": "680 / 585",
+        "item_id": 2971868509
+      },
+      {
+        "nome_item": "Greater Expansion",
+        "custo_exibido": "3200",
+        "winrate_percentual": 50.8,
+        "uso_percentual": 0.91,
+        "vitorias_e_derrotas_exibidas": "636 / 616",
+        "item_id": 1193964439
+      },
+      {
+        "nome_item": "Spirit Shredder",
+        "custo_exibido": "1600",
+        "winrate_percentual": 53.77,
+        "uso_percentual": 0.81,
+        "vitorias_e_derrotas_exibidas": "599 / 515",
+        "item_id": 1144549437
+      },
+      {
+        "nome_item": "Slowing Bullets",
+        "custo_exibido": "1600",
+        "winrate_percentual": 49.47,
+        "uso_percentual": 0.76,
+        "vitorias_e_derrotas_exibidas": "518 / 529",
+        "item_id": 393974127
+      },
+      {
+        "nome_item": "Fleetfoot",
+        "custo_exibido": "1600",
+        "winrate_percentual": 54.58,
+        "uso_percentual": 0.72,
+        "vitorias_e_derrotas_exibidas": "542 / 451",
+        "item_id": 3403085434
+      },
+      {
+        "nome_item": "Healing Booster",
+        "custo_exibido": "1600",
+        "winrate_percentual": 52.35,
+        "uso_percentual": 0.71,
+        "vitorias_e_derrotas_exibidas": "512 / 466",
+        "item_id": 2566692615
+      },
+      {
+        "nome_item": "Cheat Death",
+        "custo_exibido": "6400",
+        "winrate_percentual": 58.2,
+        "uso_percentual": 0.71,
+        "vitorias_e_derrotas_exibidas": "564 / 405",
+        "item_id": 3361811174
+      },
+      {
+        "nome_item": "Phantom Strike",
+        "custo_exibido": "6400",
+        "winrate_percentual": 57.61,
+        "uso_percentual": 0.69,
+        "vitorias_e_derrotas_exibidas": "541 / 398",
+        "item_id": 1371725689
+      },
+      {
+        "nome_item": "Alchemical Fire",
+        "custo_exibido": "3200",
+        "winrate_percentual": 48.99,
+        "uso_percentual": 0.5,
+        "vitorias_e_derrotas_exibidas": "338 / 352",
+        "item_id": 1932939246
+      },
+      {
+        "nome_item": "Intensifying Magazine",
+        "custo_exibido": "1600",
+        "winrate_percentual": 47.63,
+        "uso_percentual": 0.49,
+        "vitorias_e_derrotas_exibidas": "321 / 353",
+        "item_id": 2407033488
+      },
+      {
+        "nome_item": "Vampiric Burst",
+        "custo_exibido": "6400",
+        "winrate_percentual": 52.85,
+        "uso_percentual": 0.46,
+        "vitorias_e_derrotas_exibidas": "334 / 298",
+        "item_id": 1055679805
+      },
+      {
+        "nome_item": "Weighted Shots",
+        "custo_exibido": "3200",
+        "winrate_percentual": 51.62,
+        "uso_percentual": 0.45,
+        "vitorias_e_derrotas_exibidas": "319 / 299",
+        "item_id": 3791587546
+      },
+      {
+        "nome_item": "Ethereal Shift",
+        "custo_exibido": "6400",
+        "winrate_percentual": 59.36,
+        "uso_percentual": 0.41,
+        "vitorias_e_derrotas_exibidas": "333 / 228",
+        "item_id": 2533252781
+      },
+      {
+        "nome_item": "Kinetic Dash",
+        "custo_exibido": "1600",
+        "winrate_percentual": 50.09,
+        "uso_percentual": 0.41,
+        "vitorias_e_derrotas_exibidas": "279 / 278",
+        "item_id": 3977876567
+      },
+      {
+        "nome_item": "Restorative Locket",
+        "custo_exibido": "1600",
+        "winrate_percentual": 55.62,
+        "uso_percentual": 0.39,
+        "vitorias_e_derrotas_exibidas": "297 / 237",
+        "item_id": 2059712766
+      },
+      {
+        "nome_item": "High-Velocity Rounds",
+        "custo_exibido": "800",
+        "winrate_percentual": 50.67,
+        "uso_percentual": 0.38,
+        "vitorias_e_derrotas_exibidas": "266 / 259",
+        "item_id": 3077079169
+      },
+      {
+        "nome_item": "Spirit Sap",
+        "custo_exibido": "1600",
+        "winrate_percentual": 50.0,
+        "uso_percentual": 0.38,
+        "vitorias_e_derrotas_exibidas": "260 / 260",
+        "item_id": 1219329868
+      },
+      {
+        "nome_item": "Guardian Ward",
+        "custo_exibido": "1600",
+        "winrate_percentual": 52.46,
+        "uso_percentual": 0.34,
+        "vitorias_e_derrotas_exibidas": "245 / 222",
+        "item_id": 857669956
+      },
+      {
+        "nome_item": "Focus Lens",
+        "custo_exibido": "6400",
+        "winrate_percentual": 56.8,
+        "uso_percentual": 0.33,
+        "vitorias_e_derrotas_exibidas": "259 / 197",
+        "item_id": 2142980412
+      },
+      {
+        "nome_item": "Lucky Shot",
+        "custo_exibido": "6400",
+        "winrate_percentual": 59.17,
+        "uso_percentual": 0.32,
+        "vitorias_e_derrotas_exibidas": "258 / 178",
+        "item_id": 1396247347
+      },
+      {
+        "nome_item": "Melee Lifesteal",
+        "custo_exibido": "800",
+        "winrate_percentual": 58.12,
+        "uso_percentual": 0.31,
+        "vitorias_e_derrotas_exibidas": "247 / 178",
+        "item_id": 1437614329
+      },
+      {
+        "nome_item": "Divine Barrier",
+        "custo_exibido": "6400",
+        "winrate_percentual": 56.85,
+        "uso_percentual": 0.29,
+        "vitorias_e_derrotas_exibidas": "224 / 170",
+        "item_id": 1662311306
+      },
+      {
+        "nome_item": "Opening Rounds",
+        "custo_exibido": "1600",
+        "winrate_percentual": 50.27,
+        "uso_percentual": 0.27,
+        "vitorias_e_derrotas_exibidas": "187 / 185",
+        "item_id": 2064029594
+      },
+      {
+        "nome_item": "Healing Tempo",
+        "custo_exibido": "6400",
+        "winrate_percentual": 56.3,
+        "uso_percentual": 0.27,
+        "vitorias_e_derrotas_exibidas": "210 / 163",
+        "item_id": 1427630806
+      },
+      {
+        "nome_item": "Spirit Strike",
+        "custo_exibido": "800",
+        "winrate_percentual": 60.88,
+        "uso_percentual": 0.26,
+        "vitorias_e_derrotas_exibidas": "221 / 142",
+        "item_id": 465043967
+      },
+      {
+        "nome_item": "Stalker",
+        "custo_exibido": "1600",
+        "winrate_percentual": 50.42,
+        "uso_percentual": 0.26,
+        "vitorias_e_derrotas_exibidas": "182 / 179",
+        "item_id": 98582110
+      },
+      {
+        "nome_item": "Return Fire",
+        "custo_exibido": "1600",
+        "winrate_percentual": 41.98,
+        "uso_percentual": 0.25,
+        "vitorias_e_derrotas_exibidas": "144 / 199",
+        "item_id": 3361075077
+      },
+      {
+        "nome_item": "Spirit Snatch",
+        "custo_exibido": "3200",
+        "winrate_percentual": 60.24,
+        "uso_percentual": 0.24,
+        "vitorias_e_derrotas_exibidas": "197 / 130",
+        "item_id": 3190916303
+      },
+      {
+        "nome_item": "Melee Charge",
+        "custo_exibido": "1600",
+        "winrate_percentual": 57.14,
+        "uso_percentual": 0.23,
+        "vitorias_e_derrotas_exibidas": "184 / 138",
+        "item_id": 26002154
+      },
+      {
+        "nome_item": "Glass Cannon",
+        "custo_exibido": "6400",
+        "winrate_percentual": 60.36,
+        "uso_percentual": 0.2,
+        "vitorias_e_derrotas_exibidas": "169 / 111",
+        "item_id": 365620721
+      },
+      {
+        "nome_item": "Silence Wave",
+        "custo_exibido": "3200",
+        "winrate_percentual": 40.0,
+        "uso_percentual": 0.2,
+        "vitorias_e_derrotas_exibidas": "110 / 165",
+        "item_id": 619484391
+      },
+      {
+        "nome_item": "Sharpshooter",
+        "custo_exibido": "3200",
+        "winrate_percentual": 48.24,
+        "uso_percentual": 0.19,
+        "vitorias_e_derrotas_exibidas": "123 / 132",
+        "item_id": 2152872419
+      },
+      {
+        "nome_item": "Long Range",
+        "custo_exibido": "1600",
+        "winrate_percentual": 48.77,
+        "uso_percentual": 0.18,
+        "vitorias_e_derrotas_exibidas": "119 / 125",
+        "item_id": 3331811235
+      },
+      {
+        "nome_item": "Vortex Web",
+        "custo_exibido": "6400",
+        "winrate_percentual": 55.14,
+        "uso_percentual": 0.18,
+        "vitorias_e_derrotas_exibidas": "134 / 109",
+        "item_id": 1152158042
+      },
+      {
+        "nome_item": "Armor Piercer",
+        "custo_exibido": "6400",
+        "winrate_percentual": 54.55,
+        "uso_percentual": 0.18,
+        "vitorias_e_derrotas_exibidas": "132 / 110",
+        "item_id": 673001892
+      },
+      {
+        "nome_item": "Cold Front",
+        "custo_exibido": "1600",
+        "winrate_percentual": 52.11,
+        "uso_percentual": 0.16,
+        "vitorias_e_derrotas_exibidas": "111 / 102",
+        "item_id": 1976391348
+      },
+      {
+        "nome_item": "Healing Nova",
+        "custo_exibido": "3200",
+        "winrate_percentual": 54.04,
+        "uso_percentual": 0.14,
+        "vitorias_e_derrotas_exibidas": "107 / 91",
+        "item_id": 2956256701
+      },
+      {
+        "nome_item": "Shadow Weave",
+        "custo_exibido": "3200",
+        "winrate_percentual": 57.06,
+        "uso_percentual": 0.13,
+        "vitorias_e_derrotas_exibidas": "101 / 76",
+        "item_id": 1798666702
+      },
+      {
+        "nome_item": "Veil Walker",
+        "custo_exibido": "3200",
+        "winrate_percentual": 54.22,
+        "uso_percentual": 0.12,
+        "vitorias_e_derrotas_exibidas": "90 / 76",
+        "item_id": 865958998
+      },
+      {
+        "nome_item": "Crushing Fists",
+        "custo_exibido": "6400",
+        "winrate_percentual": 58.82,
+        "uso_percentual": 0.12,
+        "vitorias_e_derrotas_exibidas": "100 / 70",
+        "item_id": 800008313
+      },
+      {
+        "nome_item": "Blood Tribute",
+        "custo_exibido": "3200",
+        "winrate_percentual": 62.72,
+        "uso_percentual": 0.12,
+        "vitorias_e_derrotas_exibidas": "106 / 63",
+        "item_id": 989206714
+      },
+      {
+        "nome_item": "Lifestrike",
+        "custo_exibido": "3200",
+        "winrate_percentual": 59.24,
+        "uso_percentual": 0.11,
+        "vitorias_e_derrotas_exibidas": "93 / 64",
+        "item_id": 1252627263
+      },
+      {
+        "nome_item": "Colossus",
+        "custo_exibido": "6400",
+        "winrate_percentual": 46.9,
+        "uso_percentual": 0.11,
+        "vitorias_e_derrotas_exibidas": "68 / 77",
+        "item_id": 2407781327
+      },
+      {
+        "nome_item": "Arctic Blast",
+        "custo_exibido": "6400",
+        "winrate_percentual": 62.04,
+        "uso_percentual": 0.1,
+        "vitorias_e_derrotas_exibidas": "85 / 52",
+        "item_id": 3812615317
+      },
+      {
+        "nome_item": "Hunter's Aura",
+        "custo_exibido": "3200",
+        "winrate_percentual": 58.21,
+        "uso_percentual": 0.1,
+        "vitorias_e_derrotas_exibidas": "78 / 56",
+        "item_id": 2481177645
+      },
+      {
+        "nome_item": "Frenzy",
+        "custo_exibido": "6400",
+        "winrate_percentual": 62.94,
+        "uso_percentual": 0.1,
+        "vitorias_e_derrotas_exibidas": "90 / 53",
+        "item_id": 339443430
+      },
+      {
+        "nome_item": "Spellslinger",
+        "custo_exibido": "6400",
+        "winrate_percentual": 53.9,
+        "uso_percentual": 0.1,
+        "vitorias_e_derrotas_exibidas": "76 / 65",
+        "item_id": 2221211450
+      },
+      {
+        "nome_item": "Fury Trance",
+        "custo_exibido": "3200",
+        "winrate_percentual": 50.83,
+        "uso_percentual": 0.09,
+        "vitorias_e_derrotas_exibidas": "61 / 59",
+        "item_id": 1409190604
+      },
+      {
+        "nome_item": "Ballistic Enchantment",
+        "custo_exibido": "3200",
+        "winrate_percentual": 53.06,
+        "uso_percentual": 0.07,
+        "vitorias_e_derrotas_exibidas": "52 / 46",
+        "item_id": 3294954488
+      },
+      {
+        "nome_item": "Hollow Point",
+        "custo_exibido": "3200",
+        "winrate_percentual": 46.91,
+        "uso_percentual": 0.06,
+        "vitorias_e_derrotas_exibidas": "38 / 43",
+        "item_id": 2678489038
+      },
+      {
+        "nome_item": "Berserker",
+        "custo_exibido": "3200",
+        "winrate_percentual": 49.41,
+        "uso_percentual": 0.06,
+        "vitorias_e_derrotas_exibidas": "42 / 43",
+        "item_id": 1414319208
+      },
+      {
+        "nome_item": "Rescue Beam",
+        "custo_exibido": "3200",
+        "winrate_percentual": 38.1,
+        "uso_percentual": 0.05,
+        "vitorias_e_derrotas_exibidas": "24 / 39",
+        "item_id": 1804594021
+      },
+      {
+        "nome_item": "Express Shot",
+        "custo_exibido": "3200",
+        "winrate_percentual": 55.56,
+        "uso_percentual": 0.03,
+        "vitorias_e_derrotas_exibidas": "25 / 20",
+        "item_id": 690458959
+      },
+      {
+        "nome_item": "Majestic Leap",
+        "custo_exibido": "3200",
+        "winrate_percentual": 58.14,
+        "uso_percentual": 0.03,
+        "vitorias_e_derrotas_exibidas": "25 / 18",
+        "item_id": 600033864
+      }
+    ]
+  },
+  "probuild": {
+    "url": "https://prod.tracklock.gg/heroes/graves/probuild",
+    "snapshot": "data\\tracklock-todos\\bruto\\graves-probuild.html",
+    "sha256": "0edb5055c6040c149588d1e96d8f645686683a6e132175053d9256d199414561",
+    "captura_utc": "2026-11-16T15:09:59.515271+00:00",
+    "janela_dias": 30,
+    "patch_isolado": false,
+    "partidas_totais_exibidas": 71,
+    "fases": {
+      "Early Game": [
+        {
+          "nome_item": "Restorative Shot",
+          "uso_percentual": 100.0,
+          "item_id": 3862866912
+        },
+        {
+          "nome_item": "Grit",
+          "uso_percentual": 87.0,
+          "item_id": 1672893796
+        },
+        {
+          "nome_item": "Extra Spirit",
+          "uso_percentual": 85.0,
+          "item_id": 968099481
+        },
+        {
+          "nome_item": "Spirit Shielding",
+          "uso_percentual": 72.0,
+          "item_id": 112198670
+        },
+        {
+          "nome_item": "Split Shot",
+          "uso_percentual": 70.0,
+          "item_id": 3647584222
+        },
+        {
+          "nome_item": "Extended Magazine",
+          "uso_percentual": 70.0,
+          "item_id": 1548066885
+        },
+        {
+          "nome_item": "Enchanter's Emblem",
+          "uso_percentual": 59.0,
+          "item_id": 3970837787
+        },
+        {
+          "nome_item": "Tesla Bullets",
+          "uso_percentual": 52.0,
+          "item_id": 811521119
+        }
+      ],
+      "Mid Game": [
+        {
+          "nome_item": "Extra Stamina",
+          "uso_percentual": 87.0,
+          "item_id": 4139877411
+        },
+        {
+          "nome_item": "Toxic Bullets",
+          "uso_percentual": 87.0,
+          "item_id": 3696726732
+        },
+        {
+          "nome_item": "Stamina Mastery",
+          "uso_percentual": 86.0,
+          "item_id": 334300056
+        },
+        {
+          "nome_item": "Improved Spirit",
+          "uso_percentual": 79.0,
+          "item_id": 7409189
+        },
+        {
+          "nome_item": "Boundless Spirit",
+          "uso_percentual": 70.0,
+          "item_id": 2519598785
+        },
+        {
+          "nome_item": "Titanic Magazine",
+          "uso_percentual": 69.0,
+          "item_id": 2356412290
+        },
+        {
+          "nome_item": "Extra Health",
+          "uso_percentual": 39.0,
+          "item_id": 3633614685
+        },
+        {
+          "nome_item": "Weapon Shielding",
+          "uso_percentual": 23.0,
+          "item_id": 805079544
+        }
+      ],
+      "Late Game": [
+        {
+          "nome_item": "Capacitor",
+          "uso_percentual": 54.0,
+          "item_id": 710436191
+        },
+        {
+          "nome_item": "Ricochet",
+          "uso_percentual": 52.0,
+          "item_id": 2480592370
+        },
+        {
+          "nome_item": "Spirit Resilience",
+          "uso_percentual": 45.0,
+          "item_id": 2163598980
+        },
+        {
+          "nome_item": "Inhibitor",
+          "uso_percentual": 21.0,
+          "item_id": 2037039379
+        },
+        {
+          "nome_item": "Superior Duration",
+          "uso_percentual": 15.0,
+          "item_id": 2717651715
+        },
+        {
+          "nome_item": "Plated Armor",
+          "uso_percentual": 15.0,
+          "item_id": 3491236900
+        },
+        {
+          "nome_item": "Metal Skin",
+          "uso_percentual": 11.0,
+          "item_id": 1378931225
+        },
+        {
+          "nome_item": "Mystic Vulnerability",
+          "uso_percentual": 10.0,
+          "item_id": 2081037738
+        }
+      ]
+    },
+    "rank": "jogadores classificados como pro pelo Tracklock; nao equivale a filtro Phantom+"
+  },
+  "build": {
+    "url": "https://prod.tracklock.gg/heroes/graves/build",
+    "snapshot": "data\\tracklock-todos\\bruto\\graves-build.html",
+    "sha256": "ad3c393ba211312430207ef047003ba7e1dee8c38a698293071c5808e13e70dd",
+    "captura_utc": "2026-11-16T15:10:01.840931+00:00",
+    "variante": "padrao",
+    "secoes": {
+      "Core Build": [
+        {
+          "nome_item": "Restorative Shot",
+          "item_id": 3862866912
+        },
+        {
+          "nome_item": "Grit",
+          "item_id": 1672893796
+        },
+        {
+          "nome_item": "Extra Spirit",
+          "item_id": 968099481
+        },
+        {
+          "nome_item": "Tesla Bullets",
+          "item_id": 811521119
+        },
+        {
+          "nome_item": "Extra Stamina",
+          "item_id": 4139877411
+        },
+        {
+          "nome_item": "Mystic Shot",
+          "item_id": 395867183
+        },
+        {
+          "nome_item": "Torment Pulse",
+          "item_id": 395944548
+        },
+        {
+          "nome_item": "Improved Spirit",
+          "item_id": 7409189
+        },
+        {
+          "nome_item": "Stamina Mastery",
+          "item_id": 334300056
+        },
+        {
+          "nome_item": "Enchanter's Emblem",
+          "item_id": 3970837787
+        },
+        {
+          "nome_item": "Toxic Bullets",
+          "item_id": 3696726732
+        },
+        {
+          "nome_item": "Mystic Vulnerability",
+          "item_id": 2081037738
+        },
+        {
+          "nome_item": "Spirit Lifesteal",
+          "item_id": 876563814
+        },
+        {
+          "nome_item": "Capacitor",
+          "item_id": 710436191
+        },
+        {
+          "nome_item": "Escalating Exposure",
+          "item_id": 3005970438
+        }
+      ],
+      "Early": [
+        {
+          "nome_item": "Titanic Magazine",
+          "item_id": 2356412290
+        },
+        {
+          "nome_item": "Healbane",
+          "item_id": 2603935618
+        },
+        {
+          "nome_item": "Split Shot",
+          "item_id": 3647584222
+        },
+        {
+          "nome_item": "Extended Magazine",
+          "item_id": 1548066885
+        },
+        {
+          "nome_item": "Suppressor",
+          "item_id": 1925087134
+        },
+        {
+          "nome_item": "Rebuttal",
+          "item_id": 4204808176
+        }
+      ],
+      "Late": [
+        {
+          "nome_item": "Siphon Bullets",
+          "item_id": 1282141666
+        },
+        {
+          "nome_item": "Boundless Spirit",
+          "item_id": 2519598785
+        },
+        {
+          "nome_item": "Spiritual Overflow",
+          "item_id": 2226497419
+        },
+        {
+          "nome_item": "Surge of Power",
+          "item_id": 1292979587
+        },
+        {
+          "nome_item": "Ricochet",
+          "item_id": 2480592370
+        },
+        {
+          "nome_item": "Heroic Aura",
+          "item_id": 2108215830
+        }
+      ],
+      "Defensives": [
+        {
+          "nome_item": "Weapon Shielding",
+          "item_id": 805079544
+        },
+        {
+          "nome_item": "Spirit Shielding",
+          "item_id": 112198670
+        },
+        {
+          "nome_item": "Reactive Barrier",
+          "item_id": 1644605047
+        },
+        {
+          "nome_item": "Spirit Resilience",
+          "item_id": 2163598980
+        },
+        {
+          "nome_item": "Bullet Resilience",
+          "item_id": 3140772621
+        }
+      ],
+      "Counter Picks": [
+        {
+          "nome_item": "Weapon Shielding",
+          "item_id": 805079544
+        },
+        {
+          "nome_item": "Bullet Resilience",
+          "item_id": 3140772621
+        },
+        {
+          "nome_item": "Metal Skin",
+          "item_id": 1378931225
+        },
+        {
+          "nome_item": "Healbane",
+          "item_id": 2603935618
+        },
+        {
+          "nome_item": "Spirit Resilience",
+          "item_id": 2163598980
+        },
+        {
+          "nome_item": "Dispel Magic",
+          "item_id": 3731635960
+        },
+        {
+          "nome_item": "Counterspell",
+          "item_id": 1414025773
+        }
+      ],
+      "Actives": [
+        {
+          "nome_item": "Split Shot",
+          "item_id": 3647584222
+        },
+        {
+          "nome_item": "Heroic Aura",
+          "item_id": 2108215830
+        },
+        {
+          "nome_item": "Dispel Magic",
+          "item_id": 3731635960
+        },
+        {
+          "nome_item": "Metal Skin",
+          "item_id": 1378931225
+        }
+      ]
+    }
+  }
+}

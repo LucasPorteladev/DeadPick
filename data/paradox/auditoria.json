@@ -1,0 +1,229 @@
+{
+  "versao_inferida": 6860,
+  "janela_utc": [
+    "2026-11-06T01:00:00+00:00",
+    "2026-11-09T00:00:00+00:00"
+  ],
+  "fontes": {
+    "catalogo-itens": {
+      "url": "https://api.deadlock-api.com/v1/assets/items?client_version=6860&language=english",
+      "linhas": 782
+    },
+    "catalogo-herois": {
+      "url": "https://api.deadlock-api.com/v1/assets/heroes?client_version=6860&language=english",
+      "linhas": 65
+    },
+    "patches": {
+      "url": "https://api.deadlock-api.com/v2/patches",
+      "linhas": 30
+    },
+    "ranks": {
+      "url": "https://api.deadlock-api.com/v1/assets/ranks",
+      "linhas": 12
+    },
+    "partidas-1793926800": {
+      "url": "https://api.deadlock-api.com/v1/matches/metadata?hero_ids=10&game_mode=normal&match_mode=ranked&min_unix_timestamp=1793926800&max_unix_timestamp=1793948399&include_player_info=true&include_player_items=true&order_by=match_id&order_direction=asc&limit=60",
+      "linhas": 60
+    },
+    "partidas-1793948400": {
+      "url": "https://api.deadlock-api.com/v1/matches/metadata?hero_ids=10&game_mode=normal&match_mode=ranked&min_unix_timestamp=1793948400&max_unix_timestamp=1793969999&include_player_info=true&include_player_items=true&order_by=match_id&order_direction=asc&limit=60",
+      "linhas": 60
+    },
+    "partidas-1793970000": {
+      "url": "https://api.deadlock-api.com/v1/matches/metadata?hero_ids=10&game_mode=normal&match_mode=ranked&min_unix_timestamp=1793970000&max_unix_timestamp=1793991599&include_player_info=true&include_player_items=true&order_by=match_id&order_direction=asc&limit=60",
+      "linhas": 60
+    },
+    "partidas-1793991600": {
+      "url": "https://api.deadlock-api.com/v1/matches/metadata?hero_ids=10&game_mode=normal&match_mode=ranked&min_unix_timestamp=1793991600&max_unix_timestamp=1794013199&include_player_info=true&include_player_items=true&order_by=match_id&order_direction=asc&limit=60",
+      "linhas": 60
+    },
+    "partidas-1794013200": {
+      "url": "https://api.deadlock-api.com/v1/matches/metadata?hero_ids=10&game_mode=normal&match_mode=ranked&min_unix_timestamp=1794013200&max_unix_timestamp=1794034799&include_player_info=true&include_player_items=true&order_by=match_id&order_direction=asc&limit=60",
+      "linhas": 60
+    },
+    "partidas-1794034800": {
+      "url": "https://api.deadlock-api.com/v1/matches/metadata?hero_ids=10&game_mode=normal&match_mode=ranked&min_unix_timestamp=1794034800&max_unix_timestamp=1794056399&include_player_info=true&include_player_items=true&order_by=match_id&order_direction=asc&limit=60",
+      "linhas": 60
+    },
+    "partidas-1794056400": {
+      "url": "https://api.deadlock-api.com/v1/matches/metadata?hero_ids=10&game_mode=normal&match_mode=ranked&min_unix_timestamp=1794056400&max_unix_timestamp=1794077999&include_player_info=true&include_player_items=true&order_by=match_id&order_direction=asc&limit=60",
+      "linhas": 60
+    },
+    "partidas-1794078000": {
+      "url": "https://api.deadlock-api.com/v1/matches/metadata?hero_ids=10&game_mode=normal&match_mode=ranked&min_unix_timestamp=1794078000&max_unix_timestamp=1794099599&include_player_info=true&include_player_items=true&order_by=match_id&order_direction=asc&limit=60",
+      "linhas": 60
+    },
+    "partidas-1794099600": {
+      "url": "https://api.deadlock-api.com/v1/matches/metadata?hero_ids=10&game_mode=normal&match_mode=ranked&min_unix_timestamp=1794099600&max_unix_timestamp=1794121199&include_player_info=true&include_player_items=true&order_by=match_id&order_direction=asc&limit=60",
+      "linhas": 60
+    },
+    "partidas-1794121200": {
+      "url": "https://api.deadlock-api.com/v1/matches/metadata?hero_ids=10&game_mode=normal&match_mode=ranked&min_unix_timestamp=1794121200&max_unix_timestamp=1794142799&include_player_info=true&include_player_items=true&order_by=match_id&order_direction=asc&limit=60",
+      "linhas": 60
+    },
+    "partidas-1794142800": {
+      "url": "https://api.deadlock-api.com/v1/matches/metadata?hero_ids=10&game_mode=normal&match_mode=ranked&min_unix_timestamp=1794142800&max_unix_timestamp=1794164399&include_player_info=true&include_player_items=true&order_by=match_id&order_direction=asc&limit=60",
+      "linhas": 60
+    },
+    "partidas-1794164400": {
+      "url": "https://api.deadlock-api.com/v1/matches/metadata?hero_ids=10&game_mode=normal&match_mode=ranked&min_unix_timestamp=1794164400&max_unix_timestamp=1794182399&include_player_info=true&include_player_items=true&order_by=match_id&order_direction=asc&limit=60",
+      "linhas": 60
+    },
+    "alto-rank-inicio": {
+      "url": "https://api.deadlock-api.com/v1/analytics/item-stats?game_mode=normal&match_mode=ranked&min_unix_timestamp=1793926800&max_unix_timestamp=1794182399&min_average_badge=101&hero_ids=10&min_matches=1&min_bought_at_s=0&max_bought_at_s=599",
+      "linhas": 56
+    },
+    "populacao-alto-rank-inicio": {
+      "url": "https://api.deadlock-api.com/v1/analytics/hero-stats?game_mode=normal&match_mode=ranked&min_unix_timestamp=1793926800&max_unix_timestamp=1794182399&min_average_badge=101&min_duration_s=0",
+      "linhas": 44
+    },
+    "alto-rank-meio": {
+      "url": "https://api.deadlock-api.com/v1/analytics/item-stats?game_mode=normal&match_mode=ranked&min_unix_timestamp=1793926800&max_unix_timestamp=1794182399&min_average_badge=101&hero_ids=10&min_matches=1&min_bought_at_s=600&max_bought_at_s=1199",
+      "linhas": 77
+    },
+    "populacao-alto-rank-meio": {
+      "url": "https://api.deadlock-api.com/v1/analytics/hero-stats?game_mode=normal&match_mode=ranked&min_unix_timestamp=1793926800&max_unix_timestamp=1794182399&min_average_badge=101&min_duration_s=600",
+      "linhas": 44
+    },
+    "alto-rank-fim": {
+      "url": "https://api.deadlock-api.com/v1/analytics/item-stats?game_mode=normal&match_mode=ranked&min_unix_timestamp=1793926800&max_unix_timestamp=1794182399&min_average_badge=101&hero_ids=10&min_matches=1&min_bought_at_s=1200",
+      "linhas": 100
+    },
+    "populacao-alto-rank-fim": {
+      "url": "https://api.deadlock-api.com/v1/analytics/hero-stats?game_mode=normal&match_mode=ranked&min_unix_timestamp=1793926800&max_unix_timestamp=1794182399&min_average_badge=101&min_duration_s=1200",
+      "linhas": 44
+    }
+  },
+  "partidas_distintas_brutas": 720,
+  "contagens": {
+    "partidas": 720,
+    "partidas_paradox_alto_rank_individual": 82,
+    "jogadores": 8640,
+    "jogadores_sem_registros": 0,
+    "eventos_item": 275310,
+    "instantes_linha_do_tempo": 11374,
+    "decisoes_compra_candidatas": 11757,
+    "candidatas_com_ordem_ambigua": 4367,
+    "candidatas_com_inventario_inconsistente": 0,
+    "candidatas_com_id_sem_catalogo_na_partida": 0,
+    "candidatas_alto_rank_individual": 1255,
+    "candidatas_alto_rank_individual_ordem_ambigua": 447
+  },
+  "ranks_medios": {
+    "45": 25,
+    "74": 11,
+    "46": 41,
+    "55": 18,
+    "72": 11,
+    "61": 17,
+    "92": 12,
+    "34": 16,
+    "35": 13,
+    "76": 6,
+    "52": 20,
+    "56": 28,
+    "64": 9,
+    "75": 14,
+    "22": 5,
+    "66": 18,
+    "51": 33,
+    "41": 28,
+    "81": 16,
+    "83": 7,
+    "32": 7,
+    "65": 16,
+    "86": 10,
+    "44": 31,
+    "63": 17,
+    "85": 12,
+    "94": 12,
+    "54": 24,
+    "43": 26,
+    "26": 6,
+    "53": 25,
+    "33": 10,
+    "101": 11,
+    "36": 23,
+    "23": 2,
+    "42": 19,
+    "95": 12,
+    "15": 1,
+    "73": 13,
+    "84": 8,
+    "93": 13,
+    "62": 10,
+    "102": 3,
+    "31": 12,
+    "91": 6,
+    "103": 4,
+    "21": 3,
+    "71": 9,
+    "96": 11,
+    "104": 2,
+    "82": 6,
+    "105": 2,
+    "25": 4,
+    "24": 1,
+    "16": 1
+  },
+  "rank_individual_minimo": 91,
+  "ranks_individuais_paradox": {
+    "0": 76,
+    "76": 13,
+    "46": 35,
+    "55": 16,
+    "72": 12,
+    "61": 8,
+    "92": 9,
+    "35": 16,
+    "36": 20,
+    "52": 22,
+    "43": 23,
+    "63": 10,
+    "75": 5,
+    "16": 2,
+    "56": 32,
+    "66": 16,
+    "41": 19,
+    "42": 15,
+    "81": 12,
+    "ausente": 11,
+    "65": 14,
+    "51": 22,
+    "94": 7,
+    "93": 8,
+    "62": 9,
+    "44": 20,
+    "54": 19,
+    "95": 13,
+    "53": 20,
+    "33": 7,
+    "45": 24,
+    "103": 5,
+    "101": 8,
+    "24": 2,
+    "31": 13,
+    "71": 17,
+    "84": 9,
+    "74": 8,
+    "21": 3,
+    "73": 10,
+    "83": 7,
+    "86": 16,
+    "26": 3,
+    "85": 8,
+    "64": 10,
+    "96": 14,
+    "104": 3,
+    "102": 7,
+    "25": 5,
+    "34": 10,
+    "82": 12,
+    "91": 6,
+    "32": 5,
+    "105": 2,
+    "22": 1,
+    "14": 1
+  },
+  "ids_sem_catalogo": {}
+}
