@@ -242,7 +242,7 @@ def verificar_patch(versoes, notas):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--saida", type=Path, default=Path("data/paradox"))
+    parser.add_argument("--saida", type=Path, default=Path("data/deadlock-api"))
     parser.add_argument("--offline", action="store_true", help="Reprocessa os arquivos brutos locais")
     parser.add_argument("--verificar-patch", action="store_true", help="Consulta as notas e versões públicas atuais")
     args = parser.parse_args()

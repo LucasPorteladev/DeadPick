@@ -5,6 +5,6 @@
 *.vpk binary
 
 # Os modelos referenciam o SHA-256 destes arquivos.
-data/tracklock-todos/extracao.json -text
-data/tracklock-todos/clusters.json -text
+data/tracklock/extracao.json -text
+data/tracklock/clusters.json -text
 mod/native-imbue-contract.json -text

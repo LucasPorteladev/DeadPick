@@ -8,7 +8,7 @@ const root = path.resolve(__dirname, '../..');
 const runtime = require('../src/panorama/scripts/deadpick_runtime.js');
 const engine = require('../../simulador/motor.js');
 const html = vm.runInNewContext(fs.readFileSync(path.join(root, 'simulador/dados.js'), 'utf8') + '\nDADOS');
-const heroes = JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(root, 'data/paradox/bruto/catalogo-herois.json.gz'))));
+const heroes = JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(root, 'data/deadlock-api/bruto/catalogo-herois.json.gz'))));
 const data = { ...html, herois: heroes.filter(h => html.modelos[h.name]).map(h => ({ id: h.id, nome: h.name, classe: h.class_name })),
   registroInventario: [{ nome: 'Restorative Shot', tier: 1, tipo: 'weapon', imagens: ['images/items/weapon/restorative_shot'], classes: ['medicBullets'] }] };
 

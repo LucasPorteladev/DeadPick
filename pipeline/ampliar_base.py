@@ -131,7 +131,7 @@ def main():
     for nome in ("consulta-elegiveis.sql", "elegiveis-headers.txt", "elegiveis-rank.json"):
         shutil.copyfile(Path("data") / nome, bruto / nome)
     for nome in ("catalogo-itens", "catalogo-herois", "ranks", "patches"):
-        shutil.copyfile(Path("data/paradox/bruto") / f"{nome}.json.gz", bruto / f"{nome}.json.gz")
+        shutil.copyfile(Path("data/deadlock-api/bruto") / f"{nome}.json.gz", bruto / f"{nome}.json.gz")
     with gzip.open(bruto / "catalogo-itens.json.gz", "rt", encoding="utf-8") as entrada:
         catalogo = {i["id"]: i for i in json.load(entrada)}
     with gzip.open(bruto / "catalogo-herois.json.gz", "rt", encoding="utf-8") as entrada:

@@ -20,7 +20,7 @@ from sklearn.preprocessing import normalize
 from threadpoolctl import threadpool_limits
 
 BASE = Path('data/base-ampliada-6860')
-ROOT = Path('data/tracklock-todos')
+ROOT = Path('data/tracklock')
 
 def linhas(nome):
     with gzip.open(BASE / f'{nome}.jsonl.gz', 'rt', encoding='utf-8') as f:
@@ -57,7 +57,7 @@ def main():
         chave = (e['match_id'], e['player_slot'])
         if e['item_de_loja'] and chave in jogadores:
             compras[chave].add(e['item_id'])
-    with gzip.open('data/paradox/bruto/catalogo-itens.json.gz', 'rt', encoding='utf-8') as f:
+    with gzip.open('data/deadlock-api/bruto/catalogo-itens.json.gz', 'rt', encoding='utf-8') as f:
         catalogo = {i['id']: i for i in json.load(f)}
     import hashlib
     saida = {'gerado_utc': datetime.now(timezone.utc).isoformat(), 'sklearn': sklearn_version,

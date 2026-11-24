@@ -5,7 +5,7 @@ from pathlib import Path
 
 from coletar_tracklock_todos import catalogo
 
-ROOT = Path('data/tracklock-todos')
+ROOT = Path('data/tracklock')
 
 def verificar(condicao, mensagem):
     if not condicao:
@@ -25,7 +25,9 @@ def main():
         verificar(not h.get('erros') and not h.get('erro'), f"Erros de extracao: {h['nome']}")
         for s in ('items', 'probuild', 'build'):
             pagina = h[s]
-            verificar(hashlib.sha256(Path(pagina['snapshot']).read_bytes()).hexdigest() == pagina['sha256'], 'Snapshot alterado')
+            nome = Path(pagina['snapshot'].replace('\\', '/')).name
+            snapshot = ROOT / 'bruto' / nome
+            verificar(hashlib.sha256(snapshot.read_bytes()).hexdigest() == pagina['sha256'], 'Snapshot alterado')
         linhas = h['items']['itens']
         verificar(len({i['nome_item'] for i in linhas}) == len(linhas), 'Itens duplicados na tabela')
         total_itens += len(linhas)

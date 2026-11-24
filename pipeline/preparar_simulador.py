@@ -11,7 +11,7 @@ from pathlib import Path
 from statistics import median
 
 
-BASE = Path("data/paradox")
+BASE = Path("data/deadlock-api")
 SAIDA = Path("simulador/dados.js")
 
 
@@ -70,7 +70,7 @@ def main():
         "ranks": {r: len(m) for r, m in ranks.items()},
         "partidas": auditoria["contagens"]["partidas_paradox_alto_rank_individual"],
     }
-    modelos = json.loads(Path('data/tracklock-todos/clusters.json').read_text(encoding='utf-8'))
+    modelos = json.loads(Path('data/tracklock/clusters.json').read_text(encoding='utf-8'))
     base_ampliada = args.base or Path(modelos['base'])
     auditoria_ampliada = json.loads((base_ampliada / 'auditoria.json').read_text(encoding='utf-8'))
     tempos = defaultdict(list)
@@ -81,7 +81,7 @@ def main():
                 tempos[(evento['hero_id'], str(evento['item_id']))].append(evento['game_time_s'])
     arquivo_tempos = SAIDA.parent / 'tempos_por_perfil.json'
     tempos_perfil = json.loads(arquivo_tempos.read_text(encoding='utf-8')) if arquivo_tempos.exists() else None
-    if tempos_perfil and tempos_perfil['clusters_sha256'] != hashlib.sha256(Path('data/tracklock-todos/clusters.json').read_bytes()).hexdigest():
+    if tempos_perfil and tempos_perfil['clusters_sha256'] != hashlib.sha256(Path('data/tracklock/clusters.json').read_bytes()).hexdigest():
         raise ValueError('Tempos de outra versão dos perfis; recalcular antes de gerar o simulador.')
 
     def tempo_item(h, c, i):

@@ -22,9 +22,9 @@ def exportar(destino, run, archive):
     dados = json.loads(raw.split('const DADOS = ', 1)[1].strip().removesuffix(';'))
     if dados.get('ameacas') and dados['ameacas']['balanceVersion'] != dados['versao']:
         raise ValueError('Modelo defensivo incompatível com a versão do catálogo.')
-    with gzip.open(REPO / 'data/paradox/bruto/catalogo-herois.json.gz', 'rt', encoding='utf-8') as f:
+    with gzip.open(REPO / 'data/deadlock-api/bruto/catalogo-herois.json.gz', 'rt', encoding='utf-8') as f:
         heroes = json.load(f)
-    with gzip.open(REPO / 'data/paradox/bruto/catalogo-itens.json.gz', 'rt', encoding='utf-8') as f:
+    with gzip.open(REPO / 'data/deadlock-api/bruto/catalogo-itens.json.gz', 'rt', encoding='utf-8') as f:
         items = json.load(f)
     listing = run('vpk', 'list', archive).decode('utf-8')
     resources = {line.split()[-1] for line in listing.splitlines() if line.strip()}

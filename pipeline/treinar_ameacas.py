@@ -35,7 +35,7 @@ def main():
     p.add_argument('--saida', type=Path, default=Path('simulador/ameacas.json'))
     p.add_argument('--relatorio', type=Path, default=Path('relatorios/ameacas.json'))
     args = p.parse_args()
-    catalog_root = Path('data/paradox/bruto')
+    catalog_root = Path('data/deadlock-api/bruto')
     with gzip.open(catalog_root / 'catalogo-itens.json.gz', 'rt', encoding='utf-8') as f:
         catalog = json.load(f)
     with gzip.open(catalog_root / 'catalogo-herois.json.gz', 'rt', encoding='utf-8') as f:

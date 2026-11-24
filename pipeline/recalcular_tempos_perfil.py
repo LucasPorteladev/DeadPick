@@ -19,7 +19,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--base', type=Path, required=True)
     args = p.parse_args()
-    source = Path('data/tracklock-todos/clusters.json')
+    source = Path('data/tracklock/clusters.json')
     clusters = json.loads(source.read_text(encoding='utf-8'))
     assert hashlib.sha256((args.base/'auditoria.json').read_bytes()).hexdigest() == clusters['auditoria_base_sha256'], 'Base diferente da usada no clustering'
     players = {(x['match_id'], x['player_slot']): x['hero_id'] for x in rows(args.base, 'jogadores')

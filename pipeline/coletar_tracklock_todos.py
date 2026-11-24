@@ -13,10 +13,10 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from extrair_tracklock import build, compras_profissionais, tabela_itens
 
-ROOT = Path('data/tracklock-todos')
+ROOT = Path('data/tracklock')
 
 def catalogo(tipo):
-    with gzip.open(f'data/paradox/bruto/catalogo-{tipo}.json.gz', 'rt', encoding='utf-8') as f:
+    with gzip.open(f'data/deadlock-api/bruto/catalogo-{tipo}.json.gz', 'rt', encoding='utf-8') as f:
         return json.load(f)
 
 def baixar(slug, secao, atualizar=False):

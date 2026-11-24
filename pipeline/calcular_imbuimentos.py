@@ -110,7 +110,7 @@ def main():
     audit = json.loads((args.base/'auditoria.json').read_text(encoding='utf-8'))
     if audit['versao_inferida'] != 6860 or audit['rank_individual_minimo'] != 91:
         raise ValueError('Recorte incompatível com catálogo e filtro Phantom+.')
-    catdir = ROOT/'data/paradox/bruto'
+    catdir = ROOT/'data/deadlock-api/bruto'
     contrato = json.loads(args.contrato_nativo.read_text(encoding='utf-8'))
     result = calcular(args.base, ler_gzip(catdir/'catalogo-itens.json.gz'), ler_gzip(catdir/'catalogo-herois.json.gz'), contrato)
     result['origem'] = {'auditoria_base_sha256': hashlib.sha256((args.base/'auditoria.json').read_bytes()).hexdigest(),

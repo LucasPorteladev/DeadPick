@@ -1,5 +1,7 @@
 # DeadPick
 
+[![Ler o artigo final (PDF)](artigo/ler-artigo.svg)](artigo/artigo.pdf)
+
 Recomendador contextual de itens para Deadlock, desenvolvido por **Lucas Cerqueira Portela** e **Bruno Prado dos Santos** na disciplina de Ciência de Dados, com o professor Higor Alexandre, na UFCI MG.
 
 O DeadPick sugere a próxima compra com base no herói, no inventário, na composição das equipes, no tempo e no saldo. O simulador HTML e o mod usam o mesmo motor de recomendação e os modelos do recorte histórico do catálogo **6860**, com **44 heróis** e **173 itens de loja**.
@@ -32,9 +34,9 @@ O tratamento liga eventos ao catálogo e reconstrói o inventário por segundo. 
 
 Execute os comandos a partir da raiz. Use Python 3.11 ou superior e instale as dependências com `python -m pip install -r requirements.txt`. As capturas do Tracklock e do catálogo de imagens usam `curl`, chamado como `curl.exe` na captura histórica do Tracklock.
 
-- **Deadlock API.** Se partir dos caches, restaure os arquivos da coleta piloto em `data/paradox/bruto/` e execute `python pipeline/extrair_paradox.py --offline`. A base ampliada é produzida por `python pipeline/ampliar_base.py --offline`, com os lotes em `data/base-ampliada-6860/bruto/`, os arquivos `data/elegiveis-rank.json` e `data/elegiveis-headers.txt`, a consulta executada em `data/consulta-elegiveis.sql` e os catálogos auxiliares de ranks e patches em `data/paradox/bruto/`. A consulta versionada está em `pipeline/consulta-elegiveis.sql`. Sem `--offline`, os extratores consultam a API para os lotes ausentes.
-- **Históricos já normalizados.** Restaure `partidas.jsonl.gz`, `jogadores.jsonl.gz`, `eventos.jsonl.gz`, `decisoes.jsonl.gz` e o `auditoria.json` correspondente em `data/base-ampliada-6860/`. Para gerar o catálogo do simulador, restaure também `data/paradox/auditoria.json` e `data/paradox/decisoes_compra_alto_rank_individual.jsonl.gz` da coleta piloto.
-- **Tracklock.** A extração agregada histórica já acompanha a entrega. A validação dos snapshots exige os HTMLs originais em `data/tracklock-todos/bruto/`. Para uma nova coleta, execute `python pipeline/coletar_tracklock_todos.py --atualizar`.
+- **Deadlock API.** Se partir dos caches, restaure os arquivos da coleta piloto em `data/deadlock-api/bruto/` e execute `python pipeline/extrair_paradox.py --offline`. A base ampliada é produzida por `python pipeline/ampliar_base.py --offline`, com os lotes em `data/base-ampliada-6860/bruto/`, os arquivos `data/elegiveis-rank.json` e `data/elegiveis-headers.txt`, a consulta executada em `data/consulta-elegiveis.sql` e os catálogos auxiliares de ranks e patches em `data/deadlock-api/bruto/`. A consulta versionada está em `pipeline/consulta-elegiveis.sql`. Sem `--offline`, os extratores consultam a API para os lotes ausentes.
+- **Históricos já normalizados.** Restaure `partidas.jsonl.gz`, `jogadores.jsonl.gz`, `eventos.jsonl.gz`, `decisoes.jsonl.gz` e o `auditoria.json` correspondente em `data/base-ampliada-6860/`. Para gerar o catálogo do simulador, restaure também `data/deadlock-api/auditoria.json` e `data/deadlock-api/decisoes_compra_alto_rank_individual.jsonl.gz` da coleta piloto.
+- **Tracklock.** A extração agregada histórica já acompanha a entrega. A validação dos snapshots exige os HTMLs originais em `data/tracklock/bruto/`. Para uma nova coleta, execute `python pipeline/coletar_tracklock_todos.py --atualizar`.
 
 Com esses insumos, execute o processamento nesta ordem.
 
@@ -108,11 +110,11 @@ O compilador valida o HUD nativo, empacota os cinco recursos Panorama e grava o 
 
 | Arquivo | Função |
 | --- | --- |
-| [`data/paradox/bruto/catalogo-herois.json.gz`](data/paradox/bruto/catalogo-herois.json.gz) | Catálogo histórico de heróis e habilidades da API. Serve à preparação, aos testes e à exportação do mod. |
-| [`data/paradox/bruto/catalogo-itens.json.gz`](data/paradox/bruto/catalogo-itens.json.gz) | Catálogo histórico de itens, com identidades, custos, tiers e componentes. |
-| [`data/tracklock-todos/extracao.json`](data/tracklock-todos/extracao.json) | Entradas consolidadas do Tracklock que alimentam a seleção de candidatos ao agrupamento. |
-| [`data/tracklock-todos/candidatos.json`](data/tracklock-todos/candidatos.json) | Exportação dos itens candidatos e dos perfis frequentes por herói, usada na validação dos clusters. |
-| [`data/tracklock-todos/clusters.json`](data/tracklock-todos/clusters.json) | Perfis ajustados, frequências, métricas e metadados do agrupamento. |
+| [`data/deadlock-api/bruto/catalogo-herois.json.gz`](data/deadlock-api/bruto/catalogo-herois.json.gz) | Catálogo histórico de heróis e habilidades da API. Serve à preparação, aos testes e à exportação do mod. |
+| [`data/deadlock-api/bruto/catalogo-itens.json.gz`](data/deadlock-api/bruto/catalogo-itens.json.gz) | Catálogo histórico de itens, com identidades, custos, tiers e componentes. |
+| [`data/tracklock/extracao.json`](data/tracklock/extracao.json) | Entradas consolidadas do Tracklock que alimentam a seleção de candidatos ao agrupamento. |
+| [`data/tracklock/candidatos.json`](data/tracklock/candidatos.json) | Exportação dos itens candidatos e dos perfis frequentes por herói, usada na validação dos clusters. |
+| [`data/tracklock/clusters.json`](data/tracklock/clusters.json) | Perfis ajustados, frequências, métricas e metadados do agrupamento. |
 
 ### Simulador HTML
 
@@ -163,6 +165,4 @@ O compilador valida o HUD nativo, empacota os cinco recursos Panorama e grava o 
 | Arquivo | Função |
 | --- | --- |
 | `artigo/artigo.pdf` | Artigo acadêmico final em formato IEEE, com metodologia, resultados, limitações e referências. |
-| `artigo/ler-artigo.svg` | Imagem do botão abaixo, que abre o PDF. |
-
-[![Ler o artigo final (PDF)](artigo/ler-artigo.svg)](artigo/artigo.pdf)
+| `artigo/ler-artigo.svg` | Imagem do botão de leitura no início do README. |
