@@ -1,0 +1,10 @@
+* text=auto
+*.gz binary
+*.zip binary
+*.pdf binary
+*.vpk binary
+
+# Os modelos referenciam o SHA-256 destes arquivos.
+data/tracklock-todos/extracao.json -text
+data/tracklock-todos/clusters.json -text
+mod/native-imbue-contract.json -text

@@ -1,0 +1,42 @@
+<Panel id="DeadpickDiagnostics" hittest="false" hittestchildren="false" visible="false">
+  <Panel class="DeadpickStrip">
+    <Panel class="DeadpickHeroHeader">
+      <Panel class="DeadpickHeroFrame">
+        <Panel class="DeadpickHeroCircle" hittest="false" />
+        <Image id="DeadpickHeroImage" class="DeadpickHeroPortrait" scaling="stretch-to-fit-preserve-aspect" visible="false" />
+      </Panel>
+      <Panel class="DeadpickHeaderText"><Label id="DeadpickHeroName" text="" /><Label id="DeadpickPlanStatus" class="DeadpickSubtitle" text="Ordem de compra" /></Panel>
+    </Panel>
+    <Panel id="DeadpickRow0" class="DeadpickItemRow DeadpickNext" visible="false">
+      <Panel class="DeadpickIconFrame">
+        <Image id="DeadpickIcon0" class="DeadpickItemIcon" scaling="stretch-to-fit-preserve-aspect" visible="false" />
+        <Label class="DeadpickOrder" text="1" />
+        <Label id="DeadpickTier0" class="DeadpickTier" text="" />
+      </Panel>
+      <Panel class="DeadpickItemDetails"><Label class="DeadpickNextLabel" text="PRÓXIMA COMPRA" /><Label id="DeadpickItem0" class="DeadpickItemName" text="" />
+        <Panel id="DeadpickImbueBox0" class="DeadpickImbue" visible="false"><Image id="DeadpickImbueIcon0" class="DeadpickImbueIcon" visible="false" /><Label id="DeadpickImbue0" text="" /></Panel>
+      </Panel>
+    </Panel>
+    <Panel id="DeadpickRow1" class="DeadpickItemRow" visible="false">
+      <Panel class="DeadpickIconFrame">
+        <Image id="DeadpickIcon1" class="DeadpickItemIcon" scaling="stretch-to-fit-preserve-aspect" visible="false" />
+        <Label class="DeadpickOrder" text="2" />
+        <Label id="DeadpickTier1" class="DeadpickTier" text="" />
+      </Panel>
+      <Panel class="DeadpickItemDetails"><Label id="DeadpickItem1" class="DeadpickItemName" text="" />
+        <Panel id="DeadpickImbueBox1" class="DeadpickImbue" visible="false"><Image id="DeadpickImbueIcon1" class="DeadpickImbueIcon" visible="false" /><Label id="DeadpickImbue1" text="" /></Panel>
+      </Panel>
+    </Panel>
+    <Panel id="DeadpickRow2" class="DeadpickItemRow" visible="false">
+      <Panel class="DeadpickIconFrame">
+        <Image id="DeadpickIcon2" class="DeadpickItemIcon" scaling="stretch-to-fit-preserve-aspect" visible="false" />
+        <Label class="DeadpickOrder" text="3" />
+        <Label id="DeadpickTier2" class="DeadpickTier" text="" />
+      </Panel>
+      <Panel class="DeadpickItemDetails"><Label id="DeadpickItem2" class="DeadpickItemName" text="" />
+        <Panel id="DeadpickImbueBox2" class="DeadpickImbue" visible="false"><Image id="DeadpickImbueIcon2" class="DeadpickImbueIcon" visible="false" /><Label id="DeadpickImbue2" text="" /></Panel>
+      </Panel>
+    </Panel>
+  </Panel>
+  <Label id="DeadpickNotice" text="" />
+</Panel>

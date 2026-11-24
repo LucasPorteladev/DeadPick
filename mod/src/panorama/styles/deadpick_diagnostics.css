@@ -1,0 +1,160 @@
+#DeadpickDiagnostics
+{
+    horizontal-align: left;
+    vertical-align: center;
+    margin-left: 24px;
+    padding: 10px 12px 8px 8px;
+    flow-children: down;
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#171510cc), to(#17151000));
+}
+#DeadpickDiagnostics Label
+{
+    font-family: Radiance, Retail Demo, Noto Sans, sans-serif;
+    color: #ffefd7;
+}
+#DeadpickDiagnostics .DeadpickStrip { flow-children: right; }
+#DeadpickDiagnostics .DeadpickHeroFrame
+{
+    width: 48px;
+    height: 64px;
+    margin-right: 10px;
+    vertical-align: center;
+}
+#DeadpickDiagnostics .DeadpickHeroPortrait { width: 100%; height: 100%; }
+#DeadpickDiagnostics .DeadpickItemRow
+{
+    flow-children: down;
+    width: 62px;
+    margin-right: 5px;
+    vertical-align: center;
+}
+#DeadpickDiagnostics .DeadpickNext { width: 72px; margin-right: 9px; }
+#DeadpickDiagnostics .DeadpickIconFrame
+{
+    width: 52px;
+    height: 52px;
+    horizontal-align: center;
+    background-color: #171510bb;
+    border: 1px solid #ffefd733;
+    border-radius: 3px;
+}
+#DeadpickDiagnostics .DeadpickNext .DeadpickIconFrame
+{
+    width: 64px;
+    height: 64px;
+    border: 1px solid #ffefd799;
+}
+#DeadpickDiagnostics .DeadpickItemIcon { width: 100%; height: 100%; }
+#DeadpickDiagnostics .DeadpickItemName
+{
+    width: 100%;
+    height: 27px;
+    margin-top: 4px;
+    font-size: 11px;
+    text-align: center;
+    white-space: normal;
+    text-overflow: ellipsis;
+    text-shadow: 0px 1px 2px #000000cc;
+}
+#DeadpickDiagnostics .DeadpickOrder
+{
+    font-family: VALVEOracle, Reaver, sans-serif;
+    font-size: 12px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    background-color: #171510dd;
+    border-radius: 0px 0px 3px 0px;
+}
+#DeadpickDiagnostics .DeadpickTier
+{
+    font-family: VALVEOracle, Reaver, sans-serif;
+    font-size: 11px;
+    horizontal-align: right;
+    vertical-align: bottom;
+    min-width: 19px;
+    height: 15px;
+    padding: 0px 3px;
+    text-align: center;
+    border-radius: 2px 0px 0px 0px;
+}
+#DeadpickDiagnostics .DeadpickTier1 { background-color: #66533eee; }
+#DeadpickDiagnostics .DeadpickTier2 { background-color: #396c58ee; }
+#DeadpickDiagnostics .DeadpickTier3 { background-color: #32747eee; }
+#DeadpickDiagnostics .DeadpickTier4 { background-color: #65437fee; }
+#DeadpickDiagnostics .DeadpickTier5 { background-color: #9d620bee; }
+#DeadpickDiagnostics #DeadpickNotice
+{
+    margin-left: 62px;
+    font-size: 11px;
+    color: #ffefd799;
+    visibility: collapse;
+}
+#DeadpickDiagnostics.DeadpickHasNotice #DeadpickNotice { visibility: visible; }
+
+#DeadpickDiagnostics { width: 232px; }
+#DeadpickDiagnostics .DeadpickStrip { flow-children: down; width: 100%; }
+#DeadpickDiagnostics .DeadpickHeroFrame { width: 42px; height: 48px; margin-bottom: 7px; margin-right: 0px; }
+#DeadpickDiagnostics .DeadpickItemRow { flow-children: right; width: 100%; margin-bottom: 7px; margin-right: 0px; }
+#DeadpickDiagnostics .DeadpickNext { width: 100%; margin-right: 0px; }
+#DeadpickDiagnostics .DeadpickIconFrame { horizontal-align: left; width: 46px; height: 46px; }
+#DeadpickDiagnostics .DeadpickNext .DeadpickIconFrame { width: 54px; height: 54px; }
+#DeadpickDiagnostics .DeadpickItemName
+{
+    width: fill-parent-flow(1.0);
+    height: fit-children;
+    vertical-align: center;
+    margin-top: 0px;
+    margin-left: 9px;
+    font-size: 14px;
+    text-align: left;
+}
+#DeadpickDiagnostics #DeadpickNotice { margin-left: 0px; }
+
+#DeadpickDiagnostics .DeadpickHeroHeader { flow-children: right; width: 100%; margin-bottom: 10px; }
+#DeadpickDiagnostics .DeadpickHeroFrame { margin-bottom: 0px; margin-right: 8px; }
+#DeadpickDiagnostics .DeadpickHeaderText { flow-children: down; width: fill-parent-flow(1.0); vertical-align: center; }
+#DeadpickDiagnostics #DeadpickHeroName { font-family: VALVEOracle, Reaver, sans-serif; font-size: 19px; width: 100%; }
+#DeadpickDiagnostics .DeadpickSubtitle { font-size: 12px; color: #ffefd788; }
+#DeadpickDiagnostics .DeadpickNext
+{
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#ffefd71a), to(#ffefd700));
+    border-left: 2px solid #d9bb81;
+    padding: 7px 4px 7px 7px;
+    margin-bottom: 10px;
+}
+#DeadpickDiagnostics .DeadpickItemDetails { flow-children: down; width: fill-parent-flow(1.0); vertical-align: center; margin-left: 9px; }
+#DeadpickDiagnostics .DeadpickNextLabel { font-family: VALVEOracle, Reaver, sans-serif; color: #d9bb81; font-size: 11px; margin-bottom: 3px; }
+#DeadpickDiagnostics .DeadpickNext .DeadpickItemName { margin-left: 0px; width: 100%; font-size: 16px; }
+
+#DeadpickDiagnostics { width: 268px; }
+#DeadpickDiagnostics .DeadpickHeroFrame { width: 60px; height: 60px; }
+#DeadpickDiagnostics .DeadpickHeroCircle
+{
+    width: 54px; height: 54px;
+    horizontal-align: center; vertical-align: center;
+    background-color: #302b21dd;
+    border: 1px solid #d9bb8177;
+    border-radius: 50%;
+}
+#DeadpickDiagnostics .DeadpickHeroPortrait { width: 58px; height: 58px; horizontal-align: center; vertical-align: center; }
+#DeadpickDiagnostics #DeadpickHeroName { font-size: 22px; }
+#DeadpickDiagnostics .DeadpickSubtitle { font-size: 13px; }
+#DeadpickDiagnostics .DeadpickIconFrame { width: 52px; height: 52px; }
+#DeadpickDiagnostics .DeadpickNext .DeadpickIconFrame { width: 62px; height: 62px; }
+#DeadpickDiagnostics .DeadpickItemName { font-size: 16px; }
+#DeadpickDiagnostics .DeadpickNext .DeadpickItemName { font-size: 18px; }
+#DeadpickDiagnostics .DeadpickNextLabel { font-size: 12px; }
+
+#DeadpickDiagnostics .DeadpickItemDetails .DeadpickItemName { margin-left: 0px; width: 100%; }
+#DeadpickDiagnostics .DeadpickImbue { flow-children: right; width: 100%; margin-top: 4px; }
+#DeadpickDiagnostics .DeadpickImbueIcon { width: 20px; height: 20px; margin-right: 5px; vertical-align: center; }
+#DeadpickDiagnostics .DeadpickImbue Label
+{
+    width: fill-parent-flow(1.0);
+    font-size: 12px;
+    color: #d9bb81;
+    white-space: normal;
+    text-overflow: ellipsis;
+    vertical-align: center;
+}

@@ -1,0 +1,11 @@
+{
+  "steam_build_id": "26770241",
+  "mod_version": "0.4.6",
+  "base_hud_decompiled_sha256": "55857be63cc9c30726049c75f14df5cc05b0c8708f3c2d760b3f0fb9e7d14c8c",
+  "modlock_version": "v0.1.85",
+  "modlock_sha256": "663245f1390a48c35bd6b41d2ce6a3a790ea475b4088631156172eebdcdec666",
+  "source": "https://github.com/paralin/modlock/releases/tag/v0.1.85",
+  "native_layout": "panorama/layout/base_hud.vxml_c",
+  "status": "Nove layouts e 173 classes/tiers/componentes reinspecionados; imbuimentos por slot conferidos no export; teste no cliente pendente.",
+  "inventory_total_slots": 12
+}

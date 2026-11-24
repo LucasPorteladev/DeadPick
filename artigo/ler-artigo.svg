@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="225" height="42" viewBox="0 0 225 42" role="img" aria-labelledby="titulo">
+  <title id="titulo">Ler o artigo final (PDF)</title>
+  <rect width="225" height="42" rx="6" fill="#174f9e" />
+  <path d="M17 11h9l5 5v15H17z M26 11v6h5 M20 22h8 M20 26h8"
+        fill="none" stroke="#fff" stroke-width="1.5" stroke-linejoin="round" />
+  <text x="43" y="26" fill="#fff" font-family="system-ui, sans-serif" font-size="15" font-weight="600">Ler o artigo final (PDF)</text>
+</svg>

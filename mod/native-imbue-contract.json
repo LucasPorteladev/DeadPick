@@ -1,0 +1,19 @@
+{
+  "steam_build_id": "26770241",
+  "fonte": "scripts/abilities.vdata_c",
+  "campo": "m_TargetAbilityEffectsToApply",
+  "native_directory_sha256": "8579634c220e1216f77ed69d1ed2d5bce4c2887a4b93ff842a867b4faedb6da0",
+  "classes": {
+    "upgrade_magic_reach": "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_MODIFIER_VALUE",
+    "upgrade_mystic_reverb": "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_ACTIVE",
+    "upgrade_omnicharge_pendant": "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_ACTIVE_NON_ULT",
+    "upgrade_magic_tempo": "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_MODIFIER_VALUE",
+    "upgrade_ability_power_shard": "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_ACTIVE_NON_ULT",
+    "upgrade_arcane_extension": "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_MODIFIER_VALUE",
+    "upgrade_magic_storm": "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_ACTIVE",
+    "upgrade_quick_silver": "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_ACTIVE",
+    "upgrade_ethereal_bullets": "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_ACTIVE",
+    "upgrade_shivas_bracelet": "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_MODIFIER_VALUE",
+    "upgrade_bulletshredimbue": "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_ACTIVE"
+  }
+}
